@@ -110,7 +110,12 @@
 	--colorppal: #FF6DAF;
 	--colortrans: #ff6daf4b;
 	--colorsecundario: #D2FF51;
-    --GrisAnaya: #898989
+    --GrisAnaya: #898989;
+
+    /*Tamaños textos*/
+    --TextoGeneral: 20px;
+    --TextoSecundario: 16px;
+    --LineHeightGen: 28px
 }
 
 b,
@@ -335,15 +340,15 @@ body {
     margin-bottom: 0;
 }
 #actividad .texto_curso {
-	font-size: 18px;
-	line-height: 25px !important;
+	font-size: var(--TextoGeneral);
+	line-height: var(--LineHeightGen) !important;
 }
 .texto_curso p {
-	line-height: 25px !important;
+	line-height: var(--LineHeightGen) !important;
 	margin: 0 0 15px;
 }
 #actividad .pregunta .texto_curso {
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 .slide-wrapper {
 	text-align: left;
@@ -384,7 +389,7 @@ body {
 
 /*tamaño enunciado listas*/
 #actividad textarea {
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 
 /*ENLACE WEB*/
@@ -403,11 +408,12 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 #actividad .content .header .title h3 {
     margin-top: 0;
     background: none;
-    color: var(--GrisAnaya);
+    color: #000;
     padding: 0;
-    font-size: 35px;
+    font-size: 48px;
     border: 0;
     font-weight: normal;
+    font-family: 'Love Ya Like A Sister';
 }
 #actividad .content .header .title h3::before{
 	content: '';
@@ -553,43 +559,28 @@ body:not(.edit) .bck-file-label:before {
 }
 .bck-title-1, 
     .bck-title1 {
-    color: var(--colorppal);
-    font-size: 24px;
-    font-weight: normal;
-    line-height: 3.0rem;
-    margin: 10px 0 15px 0px;
+        color: #000;
+        font-size: 48px;
+        font-weight: normal;
+        line-height: 3.0rem;
+        margin: 30px 0 20px 0px;
+        font-family: 'Love Ya Like A Sister';
 }
 .bck-title-2,
 .bck-title2 {
-    color: #000;
-    font-size: 18px;
+    color: var(--colorppal);
+    font-size: 36px;
     font-weight: bold;
-    margin: 20px 0 5px 0;
+    margin: 20px 0 15px 0;
 }
 .bck-title-3,
 .bck-title3 {
     background: none;
-    color: #fdb325;
-    font-size: 18px;
-    padding: 2px 5px;
-    border-bottom: 2px solid;
-    font-weight: bold;
+    color: var(--colorppal);
+    font-size: 30px;
+    font-weight: 500;
 }
-.bck-title-4,
-.bck-title4 {
-    font-size: 18px;
-    color: #6F727B;
-    border-top: 3px solid #E3CE9D;
-    width: fit-content;
-    width: -moz-fit-content;
-    padding-top: 5px;
-    font-weight: 600;
-}
-.bck-title-5 {
-    font-size: 48px;
-    color: #898989;
-    margin-bottom: 20px;
-}
+
 
 
 /*Énfasis */
@@ -629,7 +620,7 @@ body:not(.edit) .bck-file-label:before {
     font-weight: bold;
     color: inherit;
     border: 0;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
     padding: 0   
 }
 
@@ -665,20 +656,34 @@ body .bck-box .bck-title p {
 }
 .bck-box.bck-box-1, 
     .bck-box.box-1 {
-    background-color: var(--colortrans);
-    margin: 20px 0;
-    border-radius: 5px;
-    border: 0;
+        margin: 20px 0;
+        padding: 0;
+        border: 0;
 }
 .bck-box.bck-box-1>.bck-title, 
     .bck-box.box-1>.bck-title {
-    color: black;
-    font-weight: bold;
-    font-size: inherit;
+        background-color: #D2FF51;
+        font-weight: bold;
+        font-size: var(--TextoGeneral);
+        color: #000;
+        text-align: center;
+        padding: 5px 25px;
+        border-radius: 30px;
+        display: block;
+        margin: 0px auto;
+        position: relative;
+        width: fit-content;
+        z-index: 1;
+        margin-bottom: -17px;
 }
 .bck-box.bck-box-1>.bck-content, 
     .bck-box.box-1>.bck-content {
-    padding: 0;
+        padding: 20px 20px;
+        border: 4px dotted var(--colorsecundario);
+        border-radius: 30px;
+        z-index: 0;
+        box-shadow: 0px 5px 6px #00000042;
+        background: white;
 }
 
 /* CAJA 2 */
@@ -690,28 +695,25 @@ body .bck-box .bck-title p {
     .bck-box.bck-box2 {
     background-color: white;
     color: #231F20;
-    border: 2px dashed var(--colorppal);
+    border: 0;
     margin: 35px 0px 20px;
     padding: 0;
     border-radius: 0;
 }
  .bck-box.bck-box-2>.bck-title, 
     .bck-box.bck-box2>.bck-title {
-    background: var(--colorppal);
-    padding: 8px 30px;
-    width: fit-content;
-    width: -moz-fit-content;
-    width: -webkit-fit-content;
-    border-radius: 5px;
     margin-left: 20px;
-    margin-top: -20px;
-    text-align: center;
-    font-weight: bold;
-    color: white;
+    color: #8C8C8C;
+    font-weight: 500;
+    padding: 0;
+    font-size: 24px;
+    padding-bottom: 5px;
 }
 .bck-box.bck-box-2>.bck-content, 
     .bck-box.bck-box2>.bck-content {
     padding: 10px 20px;
+    border: 3px dashed var(--colorsecundario);
+    border-radius: 20px;
 }
 
 /*CAJA 3 */
@@ -788,7 +790,7 @@ body .bck-box .bck-title p {
   .body_clase #actividad .bck-dropdown .bck-dropdown-titulo {
     color: #000;
     cursor: pointer;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
     font-weight: bold;
     padding-right: 40px;
   }
@@ -856,7 +858,7 @@ body .bck-box .bck-title p {
 /*Flipbox*/
 body:not(.edit) .bck-flipbox {
 		margin: 15px 0;
-		font-size: 18px;
+		font-size: var(--TextoGeneral);
 }
 
 body:not(.edit) .bck-flipbox-face.front {
@@ -916,9 +918,8 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     position: relative;
     margin-bottom: 10px;
     margin-left: 0;
-    line-height: inherit;
-    font-size: 15px;
-    line-height: 25px !important;
+    font-size: var(--TextoGeneral);
+    line-height: var(--LineHeightGen) !important;
 }
 #actividad .content .texto_curso .bck-ul,
 #actividad .content .cke_contents .bck-ul,
@@ -939,7 +940,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 	padding-left: 20px;
 }
 #actividad .content ul.bck-ul li {
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
 }
 
 
@@ -1015,7 +1016,7 @@ content: "";
     list-style-type: none;
     counter-increment: bck-li-counter 1;
     position: relative;
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
 }
 
 #actividad .content .texto_curso .bck-ol li:before,
@@ -1024,7 +1025,7 @@ content: "";
 	content: counter(bck-li-counter);
     position: relative;
     text-align: left;
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
     font-family: 'Inter', sans-serif;
 	margin-left: -10px; 
 	left: 0;
@@ -1065,7 +1066,7 @@ content: "";
     font-weight: normal;
     position: absolute;
     color: inherit;
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
     width: 28px;
     margin-top: 0px;
     left: -33px;
@@ -1093,7 +1094,7 @@ content: "";
     font-weight: normal;
     position: absolute;
     color: inherit;
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
     width: 28px;
     margin-top: 0px;
     left: -33px;
@@ -1114,7 +1115,7 @@ content: "";
     position: relative;
     background: none;
     color: #fff;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
     color: #000;
     border-bottom: 0;
     font-weight: bold;
@@ -1427,7 +1428,7 @@ hr {
 }
 .fillblanks-draggable-wrapper .response p {
     padding: 9px 10px;
-    font-size: inherit;
+    font-size: var(--TextoGeneral);
 }
 .slide_main input[disabled], 
 .slide_main input[readonly],
@@ -1760,7 +1761,7 @@ table,
 table td,
 .bck-table td {
 	border-color: #000;
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
 }
 
 .bck-table-1 {
@@ -1768,7 +1769,7 @@ table td,
 }
 .bck-table-1 td {
 	border-color: var(--colorppal);
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
 }
 
 .bck-table-2 {
@@ -1776,7 +1777,7 @@ table td,
 }
 .bck-table-2 td {
 	border-color: var(--GrisAnaya);
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
 }
 
 td,
@@ -1790,7 +1791,7 @@ table td.bck-td-1 {
     background-color: var(--colorppal);
     font-weight: bold;
     text-align: center;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 table td.bck-td-2 {
     background-color: #EAEAEA;
@@ -1823,14 +1824,14 @@ and (max-width : 480px) {
     line-height: 2.8rem !important;
 }
 #actividad .texto_curso {
-    font-size: 18px;
-    line-height: 2.8rem !important;
+    font-size: var(--TextoGeneral);
+    line-height: var(--LineHeightGen) !important;
 }
 #actividad .pregunta .texto_curso {
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 #actividad textarea {
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 #actividad .class_slide .review {
     text-align: center;
