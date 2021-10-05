@@ -737,12 +737,27 @@ body .bck-box .bck-title p {
 
 /*CAJA 4 */
 .bck-box.bck-box-4 {
-    margin: 20px 0px 20px;
-    border: 0;
+    margin: 40px 0px 20px;
     padding: 15px 20px;
     border: 4px dotted var(--colorsecundario);
     border-radius: 30px;
     background-color: #fff;
+    position: relative;
+}
+.bck-box.bck-box-4:before {
+    content: "";
+    position: relative;
+    background-image: url(images/icono_caja04.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-color: var(--colorsecundario);
+    border-radius: 31px;
+    background-position: center;
+    margin: auto;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-top: -43px;
 }
 .bck-box.bck-box-4>.bck-title {
     color: #000;
@@ -756,28 +771,44 @@ body .bck-box .bck-title p {
 
 /*CAJA 5*/
 .bck-box.bck-box-5 {
-    -moz-box-shadow: 0 0 5px #0000003d;
-    -webkit-box-shadow: 0 0 5px #0000003d;
-    box-shadow: 0 0 5px #0000003d;
+    padding: 0;
     border: 0;
-    border-radius: 5px;
-    padding: 15px 20px;
+    margin: 20px 0 0 20px;
 }
 .bck-box-5>.bck-title {
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--colorppal);
+    margin-left: 20px;
+    padding-bottom: 5px;
 }
 .bck-box-5>.bck-content {
-    font-size: 16px;
+    border: 1px solid var(--colorppal);
+    border-radius: 30px;
+    background-color: white;
+    padding: 15px 20px;
 }
 
 /*Caja 6*/
 .bck-box.bck-box-6 {
+    padding: 0;
+    border: 0;
+    margin: 20px 0 0 20px;
+    font-family: 'Love Ya Like A Sister',cursive;
 }
 .bck-box-6>.bck-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--colorppal);
+    margin-left: 20px;
+    padding-bottom: 5px;
 }
 .bck-box-6>.bck-content {
+    border: 1px solid var(--colorppal);
+    border-radius: 30px;
+    background-color: white;
+    padding: 15px 20px;
 }
-
 
 /*Desplegables*/
 /*---*/
