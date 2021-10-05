@@ -1022,6 +1022,22 @@ body .bck-box .bck-title p {
     background-color: #C7C5C5;
 }
 
+/*Desplegable 3*/
+.body_clase #actividad .bck-dropdown-3 .bck-dropdown-button {
+    background-color: #35EDC5;
+    font-size: calc(var(--TextoGeneral) - 2px);
+    padding: 0 15px 0 0;
+}
+.body_clase #actividad .bck-dropdown-3 .bck-dropdown-icon {
+    left: 0;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: #35edc5;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 /*---*/
 /*Flipbox*/
 body:not(.edit) .bck-flipbox {
