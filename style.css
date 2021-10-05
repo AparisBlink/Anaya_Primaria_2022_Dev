@@ -2026,8 +2026,8 @@ table td,
 .bck-table td {
 	border-color: #000;
     font-size: var(--TextoGeneral);
+    padding: 10px;
 }
-
 .bck-table-1 {
 	border-color: var(--colorppal);
 }
