@@ -824,6 +824,27 @@ body .bck-box .bck-title p {
 .bck-box.bck-box-7>.bck-content {
 }
 
+/*CAJA 8*/
+.bck-box.bck-box-8 {
+    padding: 0;
+    border: 0;
+    margin: 20px 0 20px 0;
+}
+.bck-box-8>.bck-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--colorppal);
+    margin-left: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.bck-box-8>.bck-content {
+    border: 1px solid var(--colorppal);
+    border-radius: 30px;
+    background-color: white;
+    padding: 15px 20px;
+}
+
 /*Desplegables*/
 /*---*/
 /* Content: Dropdown box */
