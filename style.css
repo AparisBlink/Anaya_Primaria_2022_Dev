@@ -598,6 +598,13 @@ body:not(.edit) .bck-file-label:before {
     font-size: calc(var(--TextoGeneral) - 2px);
     font-weight: normal;
     border-radius: 30px;
+    padding: 7px 15px;
+    width: fit-content;
+    -webkit-width: fit-content;
+    width: -moz-fit-content;
+    font-family: 'Sen', sans-serif;
+    text-transform: uppercase;
+    margin: 20px 0 10px;
 }
 .bck-title-5 {
     background-color: #FF906D;
@@ -607,6 +614,8 @@ body:not(.edit) .bck-file-label:before {
     border-radius: 30px;
     padding: 7px 15px;
     width: fit-content;
+    -webkit-width: fit-content;
+    width: -moz-fit-content;
     font-family: 'Sen', sans-serif;
     text-transform: uppercase;
     margin: 20px 0 10px;
@@ -619,6 +628,8 @@ body:not(.edit) .bck-file-label:before {
     border-radius: 30px;
     padding: 7px 15px;
     width: fit-content;
+    -webkit-width: fit-content;
+    width: -moz-fit-content;
     font-family: 'Sen', sans-serif;
     text-transform: uppercase;
     margin: 20px 0 10px;
@@ -632,6 +643,8 @@ body:not(.edit) .bck-file-label:before {
     border-radius: 30px;
     padding: 7px 15px;
     width: fit-content;
+    -webkit-width: fit-content;
+    width: -moz-fit-content;
     font-family: 'Sen', sans-serif;
     text-transform: uppercase;
     margin: 20px 0 10px;
