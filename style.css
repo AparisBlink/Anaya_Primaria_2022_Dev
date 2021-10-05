@@ -599,6 +599,43 @@ body:not(.edit) .bck-file-label:before {
     font-weight: normal;
     border-radius: 30px;
 }
+.bck-title-5 {
+    background-color: #FF906D;
+    color: #fff;
+    font-size: calc(var(--TextoGeneral) - 2px);
+    font-weight: normal;
+    border-radius: 30px;
+    padding: 7px 15px;
+    width: fit-content;
+    font-family: 'Sen', sans-serif;
+    text-transform: uppercase;
+    margin: 20px 0 10px;
+}
+.bck-title-6 {
+    background-color: #EBFFB2;
+    color: #000;
+    font-size: calc(var(--TextoGeneral) - 2px);
+    font-weight: normal;
+    border-radius: 30px;
+    padding: 7px 15px;
+    width: fit-content;
+    font-family: 'Sen', sans-serif;
+    text-transform: uppercase;
+    margin: 20px 0 10px;
+}
+.bck-title-7 {
+    background-color: #fff;
+    color: #000;
+    font-size: calc(var(--TextoGeneral) - 2px);
+    font-weight: normal;
+    border: 1px solid var(--colorppal);
+    border-radius: 30px;
+    padding: 7px 15px;
+    width: fit-content;
+    font-family: 'Sen', sans-serif;
+    text-transform: uppercase;
+    margin: 20px 0 10px;
+}
 
 
 
