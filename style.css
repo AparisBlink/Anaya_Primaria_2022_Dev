@@ -718,41 +718,40 @@ body .bck-box .bck-title p {
 
 /*CAJA 3 */
 .bck-box.bck-box-3 {
-    margin: 25px 0px 20px;
+    margin: 20px 0px 20px;
     padding: 0;
     border: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 .bck-box.bck-box-3>.bck-title {
     font-weight: normal;
-    color: var(--colorppal);
+    color: #000;
     border: 0;
-    font-size: inherit;
-    margin-bottom: 12px;
-    font-size: 30px;
+    font-size: 24px;
+    padding-bottom: 5px;
 }
 .bck-box.bck-box-3>.bck-content {
     padding: 15px 20px;
-    border: 2px dashed var(--colorppal);
+    border: 2px dashed #B5B8BA;
 }
 
 /*CAJA 4 */
 .bck-box.bck-box-4 {
-    margin: 25px 0px 20px;
-    padding: 0;
+    margin: 20px 0px 20px;
     border: 0;
+    padding: 15px 20px;
+    border: 4px dotted var(--colorsecundario);
+    border-radius: 30px;
+    background-color: #fff;
 }
 .bck-box.bck-box-4>.bck-title {
-    font-weight: normal;
-    color: var(--colorppal);
-    border: 0;
-    font-size: inherit;
-    margin-bottom: 12px;
-    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    font-size: var(--TextoGeneral);
 }
 .bck-box.bck-box-4>.bck-content {
-    padding: 15px 20px;
-    border: 2px dashed var(--colorppal);
-    background-color: #FFF1D7;
+    padding: 0;
+    border: 0;
 }
 
 /*CAJA 5*/
