@@ -1,5 +1,60 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap'); /*font-family: 'PT Serif', serif;*/
+@font-face {
+    font-family: 'Love Ya Like A Sister';
+    src: url('fonts/LoveYaLikeASister-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Serif';
+    src: url('fonts/PTSerif-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'PT Serif';
+    src: url('fonts/PTSerif-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Serif';
+    src: url('fonts/PTSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Serif';
+    src: url('fonts/PTSerif-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
 
 @font-face {
     font-family: 'Inter';
@@ -7,21 +62,42 @@
     font-weight: normal;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'Inter';
-    src: url('fonts/Inter-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
 @font-face {
     font-family: 'Inter';
     src: url('fonts/Inter-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
-
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Inter Semi';
+    src: url('fonts/Inter-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter Semi';
+    src: url('fonts/Inter-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
 @font-face {
     font-family: 'Inter';
     src: url('fonts/Inter-BoldItalic.woff') format('woff');
@@ -30,16 +106,16 @@
 }
 
 
-
 :root {
-	--colorppal: #FDB325;
-	--colortrans: #FDB32552;
+	--colorppal: #FF6DAF;
+	--colortrans: #ff6daf4b;
+	--colorsecundario: #D2FF51;
     --GrisAnaya: #898989
 }
 
 b,
 strong {
-	font-weight: bold;
+	font-weight: 600;
 }
 
 /*-------------------------------------------------*/
