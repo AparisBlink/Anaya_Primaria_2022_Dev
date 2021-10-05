@@ -120,8 +120,9 @@
 
 :root {
 	--colorppal: #FF6DAF;
-	--colortrans: #d2ff5180;
+	--colortrans: #ff6daf54;
 	--colorsecundario: #D2FF51;
+	--colorsecundariotrans: #d2ff5180;
     --GrisAnaya: #898989;
 
     /*Tamaños textos*/
@@ -957,7 +958,7 @@ body .bck-box .bck-title p {
   .body_clase #actividad .bck-dropdown .bck-dropdown-titulo {
     color: #000;
     cursor: pointer;
-    font-size: var(--TextoGeneral);
+    font-size: calc(var(--TextoGeneral) - 2px);
     font-weight: bold;
     padding-right: 40px;
   }
