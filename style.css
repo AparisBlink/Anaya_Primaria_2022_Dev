@@ -1026,16 +1026,43 @@ body .bck-box .bck-title p {
 .body_clase #actividad .bck-dropdown-3 .bck-dropdown-button {
     background-color: #35EDC5;
     font-size: calc(var(--TextoGeneral) - 2px);
-    padding: 0 15px 0 0;
+    padding: 0px 15px 0 18px;
+    border-radius: 30px;
 }
 .body_clase #actividad .bck-dropdown-3 .bck-dropdown-icon {
-    left: 0;
-    border: 1px solid white;
+    left: -28px;
+    border: 2px solid white;
     border-radius: 50px;
     background-color: #35edc5;
-    position: relative;
+    position: absolute;
     display: inline-block;
     vertical-align: middle;
+    top: -11px;
+    height: 50px;
+    width: 50px;
+}
+.body_clase #actividad .bck-dropdown-3 .bck-dropdown-icon>.fa {
+    display: flex;
+    -moz-transition: transform 0.2s ease-in-out;
+    -webkit-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    align-items: center;
+    justify-content: center;
+}
+.body_clase #actividad .bck-dropdown-3 .bck-dropdown-icon>.fa-chevron-up {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+.body_clase #actividad .bck-dropdown-3 .bck-dropdown-icon>.fa:before {
+    content: "";
+    background-image: url(images/icono_desplegable3.png);
+    padding: 22px 23px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /*---*/
