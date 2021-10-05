@@ -773,7 +773,7 @@ body .bck-box .bck-title p {
 .bck-box.bck-box-5 {
     padding: 0;
     border: 0;
-    margin: 20px 0 0 20px;
+    margin: 20px 0 20px 0;
 }
 .bck-box-5>.bck-title {
     font-size: 24px;
@@ -793,21 +793,35 @@ body .bck-box .bck-title p {
 .bck-box.bck-box-6 {
     padding: 0;
     border: 0;
-    margin: 20px 0 0 20px;
+    margin: 20px 0 20px 0px;
     font-family: 'Love Ya Like A Sister',cursive;
 }
 .bck-box-6>.bck-title {
     font-size: 24px;
-    font-weight: 500;
-    color: var(--colorppal);
+    color: #000;
     margin-left: 20px;
     padding-bottom: 5px;
+    font-weight: normal;
 }
 .bck-box-6>.bck-content {
     border: 1px solid var(--colorppal);
     border-radius: 30px;
     background-color: white;
     padding: 15px 20px;
+}
+
+/*Caja 7*/
+.bck-box.bck-box-7 {
+    background-color: white;
+    color: #231F20;
+    border: 3px dashed var(--colorsecundario);
+    margin: 20px 0px 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+ .bck-box.bck-box-7>.bck-title {
+}
+.bck-box.bck-box-7>.bck-content {
 }
 
 /*Desplegables*/
