@@ -2052,16 +2052,52 @@ th {
 /*Celda*/
 table td.bck-td-1 {
     color: #000;
-    background-color: var(--colorppal);
+    background-color: #fff;
     font-weight: bold;
     text-align: center;
     font-size: var(--TextoGeneral);
 }
 table td.bck-td-2 {
-    background-color: #EAEAEA;
+    color: #000;
+    background-color: var(--colorppal);
+    font-weight: bold;
+    text-align: center;
+    font-size: var(--TextoGeneral);
 }
 table td.bck-td-3 {
-    background-color: var(--colortrans);
+    color: #000;
+    background-color: var(--colorsecundario);
+    font-weight: bold;
+    text-align: center;
+    font-size: var(--TextoGeneral);
+}
+table td.bck-td-4 {
+    color: #000;
+    background-color: #FAFE4C;
+    font-weight: bold;
+    text-align: center;
+    font-size: var(--TextoGeneral);
+}
+table td.bck-td-5 {
+    color: #000;
+    background-color: #B3FB9A;
+    font-weight: bold;
+    text-align: center;
+    font-size: var(--TextoGeneral);
+}
+table td.bck-td-6 {
+    color: #000;
+    background-color: #F4F6EE;
+    font-weight: bold;
+    text-align: center;
+    font-size: var(--TextoGeneral);
+}
+table td.bck-td-7 {
+    color: #000;
+    background-color: #EBEBEB;
+    font-weight: bold;
+    text-align: center;
+    font-size: var(--TextoGeneral);
 }
 
 /*SECCIONES*/
