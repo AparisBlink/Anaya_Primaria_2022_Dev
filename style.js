@@ -10,15 +10,14 @@
 	Anaya_Primaria_2022_DevStyle.prototype = {
 		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
-		bodyClassName: 'content_type_clase_Anaya_Primaria_2022_Dev',
+		bodyClassName: 'content_type_clase_ ',
 		ckEditorStyles: {
 			name: 'Anaya_Primaria_2022_Dev',
 			styles: [
 				{ name: 'Título 01', element: 'h3', attributes: { 'class': 'bck-title-1'} },
 				{ name: 'Título 02', element: 'h3', attributes: { 'class': 'bck-title-2'} },
 				{ name: 'Título 03', element: 'h3', attributes: { 'class': 'bck-title-3'} },
-				{ name: 'Título 04', element: 'h3', attributes: { 'class': 'bck-title-4'} },
-				{ name: 'T. 05 Numero', element: 'h3', attributes: { 'class': 'bck-title-5'} },
+
 
 				{ name: 'Énfasis 01', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'Énfasis 02', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
@@ -38,6 +37,11 @@
 				{ name: 'Caja 04', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-4' } },
 				{ name: 'Caja 05', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-5' } },
 				{ name: 'Caja 06', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-6' } },
+				{ name: 'Caja 07', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-7' } },
+				{ name: 'Caja 08', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-8' } },
+				{ name: 'Caja 09', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-9' } },
+				{ name: 'Caja 10', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-10' } },
+				{ name: 'Caja 11', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-11' } },
 
 				{ name: 'Tabla 01', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table bck-table-1'} },
 				{ name: 'Table 02', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table bck-table-2'} },
