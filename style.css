@@ -1023,6 +1023,9 @@ body .bck-box .bck-title p {
 }
 
 /*Desplegable 3*/
+.body_clase #actividad .bck-dropdown-3 {
+    margin: 25px 0 25px;
+}
 .body_clase #actividad .bck-dropdown-3 .bck-dropdown-button {
     background-color: #35EDC5;
     font-size: calc(var(--TextoGeneral) - 2px);
@@ -1082,6 +1085,37 @@ body .bck-box .bck-title p {
     background-position: center;
 }
 
+/*Desplegable 4*/
+.body_clase #actividad .bck-dropdown-4 .bck-dropdown-button {
+    border-radius: 30px;
+    min-width: 300px;
+    padding: 5px;
+}
+.body_clase #actividad .bck-dropdown-4 .bck-dropdown-icon {
+    color: #fff;
+}
+.body_clase #actividad .bck-dropdown-4 .bck-dropdown-icon>.fa {
+    color: #fff;
+}
+.body_clase #actividad .bck-dropdown-4 .bck-dropdown-titulo {
+    color: #fff;
+    font-family: 'Sen', sans-serif;
+    font-weight: normal;
+    padding-right: 40px;
+}
+.body_clase #actividad .bck-dropdown-4 .bck-dropdown-content {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-size: var(--TextoGeneral);
+}
+.body_clase #actividad .bck-dropdown-4 .bck-dropdown-content p {
+    line-height: var(--LineHeightGen) !important;
+}
+
+
+
+
 /*---*/
 /*Flipbox*/
 body:not(.edit) .bck-flipbox {
@@ -1101,14 +1135,17 @@ body:not(.edit) .bck-flipbox-face.front {
     align-items: center;
     justify-content: center;
     align-content: center;
+    border-radius: 10px;
 }
 body:not(.edit) .bck-flipbox-face.back {
     color: #595959;
-    border: 2px solid #000000;
+    border: 2px solid var(--colorsecundario);
     background: #FFF;
+    border-radius: 10px;
 }
 body:not(.edit) .bck-flipbox-section {
     text-align: left;
+    border-radius: 30px;
 }
 body:not(.edit) .front .bck-flipbox-title,
  body:not(.edit) .front .bck-flipbox-section {
@@ -1122,7 +1159,6 @@ body:not(.edit) .back .bck-flipbox-title,
  body:not(.edit) .back .bck-flipbox-section {
     color: #000;
     padding: 20px;
-    font-size: 16px;
 }
 body:not(.edit)  .bck-flipbox-title,
  body:not(.edit) .bck-flipbox-section p {
