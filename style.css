@@ -105,6 +105,18 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: 'Sen';
+    src: url('fonts/Sen-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sen';
+    src: url('fonts/Sen-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
 
 :root {
 	--colorppal: #FF6DAF;
