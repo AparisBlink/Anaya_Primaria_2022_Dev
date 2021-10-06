@@ -399,12 +399,6 @@ body {
 
 
 
-/*video*/
-.vjs-poster {
-	background-color: #fff;
-}
-
-
 /*tamaño enunciado listas*/
 #actividad textarea {
     font-size: var(--TextoGeneral);
@@ -1558,10 +1552,6 @@ body:not(.edit) #actividad a.zoom_flag_img {
     right: 0;
 }
 
-/*Eliminar el fondo en el vídeo*/
-.video-js {
-	background-color: transparent;
-}
 /*Ajuste en imágenes*/
 .bck-i-fullscreen-wrapper {
     padding: 0;
@@ -1569,8 +1559,38 @@ body:not(.edit) #actividad a.zoom_flag_img {
 #actividad .content img {
     margin-top: 0;
 }
-
 /*
+
+/*Ajustes video*/
+.video.video-js .vjs-big-play-button {
+    font-size: 70px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    line-height: 1.6em;
+    color: var(--colorppal);
+    border-color: var(--colorppal);
+}
+.video-js {
+	background-color: #000;
+    border-radius: 5px 5px 0 0;
+}
+body.view-mode .bck-subtitles {
+    display: block !important;
+}
+.bck-subtitles {
+    background: var(--colorppal);
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 0 5px 5px;
+}
+.video-js .vjs-progress-holder .vjs-play-progress {
+    background-color: var(--colorppal);
+}
+
+
+
 
 /*Barra de separación (HR)*/
 hr {
