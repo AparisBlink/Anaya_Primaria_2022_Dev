@@ -655,11 +655,24 @@ body:not(.edit) .bck-file-label:before {
     font-weight: 500;
     margin: 15px 0 5px;
 }
-
+.bck-title-9 {
+    font-size: var(--TextoSecundario);
+    color: #5F5D5D;
+    font-weight: bold;
+    border: 2px dashed #B5B8BA;
+    padding: 10px;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    -moz-box-shadow: 0px 2px 2px #0000001a;
+    -webkit-box-shadow: 0px 2px 2px #0000001a;
+    box-shadow: 0px 2px 2px #0000001a;
+}
 .bck-title-10 {
     color: #000;
     font-size: var(--TextoSecundario);
     font-family: 'PT Serif', serif;
+    font-weight: bold;
     margin: 15px 0 5px;
 }
 /*Estilo de párrafo*/
