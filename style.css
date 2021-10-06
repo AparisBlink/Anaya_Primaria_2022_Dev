@@ -2044,6 +2044,16 @@ table td,
     font-size: var(--TextoGeneral);
 }
 
+.bck-table-3 {
+    border: 0;
+    border-collapse: separate;
+    font-family: 'Montserrat';
+}
+.bck-table-3 td {
+    border-radius: 5px;
+    border: 1px dashed #8b8b8b;
+}
+
 td,
 th {
 	padding-left: 10px;
@@ -2053,49 +2063,48 @@ th {
 table td.bck-td-1 {
     color: #000;
     background-color: #fff;
-    font-weight: bold;
     text-align: center;
     font-size: var(--TextoGeneral);
 }
 table td.bck-td-2 {
     color: #000;
     background-color: var(--colorppal);
-    font-weight: bold;
     text-align: center;
     font-size: var(--TextoGeneral);
 }
 table td.bck-td-3 {
     color: #000;
     background-color: var(--colorsecundario);
-    font-weight: bold;
     text-align: center;
     font-size: var(--TextoGeneral);
 }
 table td.bck-td-4 {
     color: #000;
     background-color: #FAFE4C;
-    font-weight: bold;
     text-align: center;
     font-size: var(--TextoGeneral);
 }
 table td.bck-td-5 {
     color: #000;
     background-color: #B3FB9A;
-    font-weight: bold;
     text-align: center;
     font-size: var(--TextoGeneral);
 }
 table td.bck-td-6 {
     color: #000;
     background-color: #F4F6EE;
-    font-weight: bold;
     text-align: center;
     font-size: var(--TextoGeneral);
 }
 table td.bck-td-7 {
     color: #000;
     background-color: #EBEBEB;
-    font-weight: bold;
+    text-align: center;
+    font-size: var(--TextoGeneral);
+}
+table td.bck-td-8 {
+    color: #000;
+    background-color: #F9D3E4;
     text-align: center;
     font-size: var(--TextoGeneral);
 }
