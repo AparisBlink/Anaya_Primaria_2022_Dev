@@ -1,5 +1,60 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap'); /*font-family: 'PT Serif', serif;*/
+@font-face {
+    font-family: 'Love Ya Like A Sister';
+    src: url('fonts/LoveYaLikeASister-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Serif';
+    src: url('fonts/PTSerif-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'PT Serif';
+    src: url('fonts/PTSerif-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Serif';
+    src: url('fonts/PTSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Serif';
+    src: url('fonts/PTSerif-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
 
 @font-face {
     font-family: 'Inter';
@@ -7,21 +62,42 @@
     font-weight: normal;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'Inter';
-    src: url('fonts/Inter-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
 @font-face {
     font-family: 'Inter';
     src: url('fonts/Inter-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
-
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Inter Semi';
+    src: url('fonts/Inter-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter Semi';
+    src: url('fonts/Inter-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
 @font-face {
     font-family: 'Inter';
     src: url('fonts/Inter-BoldItalic.woff') format('woff');
@@ -29,17 +105,36 @@
     font-style: italic;
 }
 
-
+@font-face {
+    font-family: 'Sen';
+    src: url('fonts/Sen-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sen';
+    src: url('fonts/Sen-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
 
 :root {
-	--colorppal: #FDB325;
-	--colortrans: #FDB32552;
-    --GrisAnaya: #898989
+	--colorppal: #FF6DAF;
+	--colortrans: #ff6daf54;
+	--colorsecundario: #D2FF51;
+	--colorsecundariotrans: #d2ff5180;
+    --GrisAnaya: #898989;
+
+    /*Tamaños textos*/
+    --TextoGeneral: 20px;
+    --LineHeightGen: 29px;
+    --TextoSecundario: 18px;
+    --LineHeightSecundario: 25px;
 }
 
 b,
 strong {
-	font-weight: bold;
+	font-weight: 600;
 }
 
 /*-------------------------------------------------*/
@@ -184,19 +279,19 @@ strong {
     }
     /*---*/
     /*logo*/
-    .content_type_curso_Anaya_Secundaria_2022_Dev.content_type_clase_Anaya_Secundaria_2022_Dev .libro-left ul li .title:before { 
+    .content_type_curso_Anaya_Primaria_2022_Dev.content_type_clase_Anaya_Primaria_2022_Dev .libro-left ul li .title:before { 
     opacity: 0;
     }
 
     /* NAVBAR */
-    .Anaya_Secundaria_2022_Dev-navbar h3 {
+    .Anaya_Primaria_2022_Dev-navbar h3 {
         width: 75%;
         margin: auto;
         margin-bottom: 15px;
         font-size: 18px;
         font-weight: bold;
     }
-    .Anaya_Secundaria_2022_Dev-navbar {
+    .Anaya_Primaria_2022_Dev-navbar {
         position: fixed;
         bottom: 0;
         left: 0;
@@ -212,22 +307,22 @@ strong {
         display: none;
         background: none;
     }
-    body.is_app .Anaya_Secundaria_2022_Dev-navbar {
+    body.is_app .Anaya_Primaria_2022_Dev-navbar {
         -webkit-transition: top 0.5s linear;
         -o-transition: top 0.5s linear;
         -moz-transition: top 0.5s linear;
         transition: top 0.5s linear;
     }
-    body.is_app .Anaya_Secundaria_2022_Dev-navbar.ocultar {
+    body.is_app .Anaya_Primaria_2022_Dev-navbar.ocultar {
         top: -136px;
     }
-    .Anaya_Secundaria_2022_Dev-navbar .navbar-content {
+    .Anaya_Primaria_2022_Dev-navbar .navbar-content {
         width: 100%;
         height: 100%;
         padding: 0 20px;
         text-align: center;
     }
-    .Anaya_Secundaria_2022_Dev-navbar .copyright {
+    .Anaya_Primaria_2022_Dev-navbar .copyright {
         color: #fff;
         line-height: 5.0rem;
     }
@@ -259,15 +354,15 @@ body {
     margin-bottom: 0;
 }
 #actividad .texto_curso {
-	font-size: 18px;
-	line-height: 25px !important;
+	font-size: var(--TextoGeneral);
+	line-height: var(--LineHeightGen) !important;
 }
 .texto_curso p {
-	line-height: 25px !important;
+	line-height: var(--LineHeightGen) !important;
 	margin: 0 0 15px;
 }
 #actividad .pregunta .texto_curso {
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 .slide-wrapper {
 	text-align: left;
@@ -287,6 +382,10 @@ body {
     padding-bottom: 90px;
     position: relative;
 }
+    /*Margin Bottom al grid para respetar el margin-bottom de los párrafos*/
+    .bck-row {
+        margin-bottom: 15px;
+    }
 
 
 /*Input Blanco*/
@@ -299,9 +398,10 @@ body {
 }
 
 
+
 /*tamaño enunciado listas*/
 #actividad textarea {
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 
 /*ENLACE WEB*/
@@ -320,11 +420,12 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 #actividad .content .header .title h3 {
     margin-top: 0;
     background: none;
-    color: var(--GrisAnaya);
+    color: #000;
     padding: 0;
-    font-size: 35px;
+    font-size: 48px;
     border: 0;
     font-weight: normal;
+    font-family: 'Love Ya Like A Sister';
 }
 #actividad .content .header .title h3::before{
 	content: '';
@@ -470,43 +571,85 @@ body:not(.edit) .bck-file-label:before {
 }
 .bck-title-1, 
     .bck-title1 {
-    color: var(--colorppal);
-    font-size: 24px;
-    font-weight: normal;
-    line-height: 3.0rem;
-    margin: 10px 0 15px 0px;
+        color: #000;
+        font-size: 48px;
+        font-weight: normal;
+        line-height: 3.0rem;
+        margin: 30px 0 20px 0px;
+        font-family: 'Love Ya Like A Sister';
 }
 .bck-title-2,
 .bck-title2 {
-    color: #000;
-    font-size: 18px;
+    color: var(--colorppal);
+    font-size: 36px;
     font-weight: bold;
-    margin: 20px 0 5px 0;
+    margin: 20px 0 15px 0;
 }
 .bck-title-3,
 .bck-title3 {
     background: none;
-    color: #fdb325;
-    font-size: 18px;
-    padding: 2px 5px;
-    border-bottom: 2px solid;
-    font-weight: bold;
+    color: var(--colorppal);
+    font-size: 30px;
+    font-weight: 500;
 }
-.bck-title-4,
-.bck-title4 {
-    font-size: 18px;
-    color: #6F727B;
-    border-top: 3px solid #E3CE9D;
+.bck-title-4 {
+    background-color: #90F6BB;
+    color: #000;
+    font-size: var(--TextoSecundario);
+    font-weight: normal;
+    border-radius: 30px;
+    padding: 7px 15px;
     width: fit-content;
+    -webkit-width: fit-content;
     width: -moz-fit-content;
-    padding-top: 5px;
-    font-weight: 600;
+    font-family: 'Sen', sans-serif;
+    text-transform: uppercase;
+    margin: 20px 0 10px;
 }
 .bck-title-5 {
-    font-size: 48px;
-    color: #898989;
-    margin-bottom: 20px;
+    background-color: #FF906D;
+    color: #fff;
+    font-size: var(--TextoSecundario);
+    font-weight: normal;
+    border-radius: 30px;
+    padding: 7px 15px;
+    width: fit-content;
+    -webkit-width: fit-content;
+    width: -moz-fit-content;
+    font-family: 'Sen', sans-serif;
+    text-transform: uppercase;
+    margin: 20px 0 10px;
 }
+.bck-title-6 {
+    background-color: #EBFFB2;
+    color: #000;
+    font-size: var(--TextoSecundario);
+    font-weight: normal;
+    border-radius: 30px;
+    padding: 7px 15px;
+    width: fit-content;
+    -webkit-width: fit-content;
+    width: -moz-fit-content;
+    font-family: 'Sen', sans-serif;
+    text-transform: uppercase;
+    margin: 20px 0 10px;
+}
+.bck-title-7 {
+    background-color: #fff;
+    color: #000;
+    font-size: var(--TextoSecundario);
+    font-weight: normal;
+    border: 1px solid var(--colorppal);
+    border-radius: 30px;
+    padding: 7px 15px;
+    width: fit-content;
+    -webkit-width: fit-content;
+    width: -moz-fit-content;
+    font-family: 'Sen', sans-serif;
+    text-transform: uppercase;
+    margin: 20px 0 10px;
+}
+
 
 
 /*Énfasis */
@@ -539,14 +682,14 @@ body:not(.edit) .bck-file-label:before {
     text-align: left;
 	background: inherit;
 	padding: 20px;
-	margin: 15px 0;
+	margin: 20px 0;
     border: 1px solid var(--colorppal);
 }
 .bck-title {
     font-weight: bold;
     color: inherit;
     border: 0;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
     padding: 0   
 }
 
@@ -582,20 +725,34 @@ body .bck-box .bck-title p {
 }
 .bck-box.bck-box-1, 
     .bck-box.box-1 {
-    background-color: var(--colortrans);
-    margin: 20px 0;
-    border-radius: 5px;
-    border: 0;
+        margin: 20px 0;
+        padding: 0;
+        border: 0;
 }
 .bck-box.bck-box-1>.bck-title, 
     .bck-box.box-1>.bck-title {
-    color: black;
-    font-weight: bold;
-    font-size: inherit;
+        background-color: #D2FF51;
+        font-weight: bold;
+        font-size: var(--TextoGeneral);
+        color: #000;
+        text-align: center;
+        padding: 5px 25px;
+        border-radius: 30px;
+        display: block;
+        margin: 0px auto;
+        position: relative;
+        width: fit-content;
+        z-index: 1;
+        margin-bottom: -17px;
 }
 .bck-box.bck-box-1>.bck-content, 
     .bck-box.box-1>.bck-content {
-    padding: 0;
+        padding: 20px 20px;
+        border: 4px dotted var(--colorsecundario);
+        border-radius: 30px;
+        z-index: 0;
+        box-shadow: 0px 5px 6px #00000042;
+        background: white;
 }
 
 /* CAJA 2 */
@@ -607,93 +764,188 @@ body .bck-box .bck-title p {
     .bck-box.bck-box2 {
     background-color: white;
     color: #231F20;
-    border: 2px dashed var(--colorppal);
+    border: 0;
     margin: 35px 0px 20px;
     padding: 0;
     border-radius: 0;
 }
  .bck-box.bck-box-2>.bck-title, 
     .bck-box.bck-box2>.bck-title {
-    background: var(--colorppal);
-    padding: 8px 30px;
-    width: fit-content;
-    width: -moz-fit-content;
-    width: -webkit-fit-content;
-    border-radius: 5px;
     margin-left: 20px;
-    margin-top: -20px;
-    text-align: center;
-    font-weight: bold;
-    color: white;
+    color: #8C8C8C;
+    font-weight: 500;
+    padding: 0;
+    font-size: 24px;
+    padding-bottom: 5px;
 }
 .bck-box.bck-box-2>.bck-content, 
     .bck-box.bck-box2>.bck-content {
     padding: 10px 20px;
+    border: 3px dashed var(--colorsecundario);
+    border-radius: 20px;
 }
 
 /*CAJA 3 */
 .bck-box.bck-box-3 {
-    margin: 25px 0px 20px;
+    margin: 20px 0px 20px;
     padding: 0;
     border: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 .bck-box.bck-box-3>.bck-title {
     font-weight: normal;
-    color: var(--colorppal);
+    color: #000;
     border: 0;
-    font-size: inherit;
-    margin-bottom: 12px;
-    font-size: 30px;
+    font-size: 24px;
+    padding-bottom: 5px;
 }
 .bck-box.bck-box-3>.bck-content {
     padding: 15px 20px;
-    border: 2px dashed var(--colorppal);
+    border: 2px dashed #B5B8BA;
 }
 
 /*CAJA 4 */
 .bck-box.bck-box-4 {
-    margin: 25px 0px 20px;
-    padding: 0;
-    border: 0;
+    margin: 40px 0px 20px;
+    padding: 15px 20px;
+    border: 4px dotted var(--colorsecundario);
+    border-radius: 30px;
+    background-color: #fff;
+    position: relative;
+}
+.bck-box.bck-box-4:before {
+    content: "";
+    position: relative;
+    background-image: url(images/icono_caja04.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-color: var(--colorsecundario);
+    border-radius: 31px;
+    background-position: center;
+    margin: auto;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-top: -43px;
 }
 .bck-box.bck-box-4>.bck-title {
-    font-weight: normal;
-    color: var(--colorppal);
-    border: 0;
-    font-size: inherit;
-    margin-bottom: 12px;
-    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    font-size: var(--TextoGeneral);
 }
 .bck-box.bck-box-4>.bck-content {
-    padding: 15px 20px;
-    border: 2px dashed var(--colorppal);
-    background-color: #FFF1D7;
+    padding: 0;
+    border: 0;
 }
 
 /*CAJA 5*/
 .bck-box.bck-box-5 {
-    -moz-box-shadow: 0 0 5px #0000003d;
-    -webkit-box-shadow: 0 0 5px #0000003d;
-    box-shadow: 0 0 5px #0000003d;
+    padding: 0;
     border: 0;
-    border-radius: 5px;
-    padding: 15px 20px;
+    margin: 20px 0 20px 0;
 }
 .bck-box-5>.bck-title {
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--colorppal);
+    margin-left: 20px;
+    padding-bottom: 5px;
 }
 .bck-box-5>.bck-content {
-    font-size: 16px;
+    border: 1px solid var(--colorppal);
+    border-radius: 30px;
+    background-color: white;
+    padding: 15px 20px;
 }
 
 /*Caja 6*/
 .bck-box.bck-box-6 {
+    padding: 0;
+    border: 0;
+    margin: 20px 0 20px 0px;
+    font-family: 'Love Ya Like A Sister',cursive;
 }
 .bck-box-6>.bck-title {
+    font-size: 24px;
+    color: #000;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    font-weight: normal;
 }
 .bck-box-6>.bck-content {
+    border: 1px solid var(--colorppal);
+    border-radius: 30px;
+    background-color: white;
+    padding: 15px 20px;
 }
 
+/*Caja 7*/
+.bck-box.bck-box-7 {
+    background-color: white;
+    color: #231F20;
+    border: 3px dashed var(--colorsecundario);
+    margin: 20px 0px 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+ .bck-box.bck-box-7>.bck-title {
+}
+.bck-box.bck-box-7>.bck-content {
+}
+
+/*CAJA 8*/
+.bck-box.bck-box-8 {
+    padding: 0;
+    border: 0;
+    margin: 20px 0 20px 0;
+}
+.bck-box-8>.bck-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--colorppal);
+    margin-left: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.bck-box-8>.bck-content {
+    border: 1px solid var(--colorppal);
+    border-radius: 30px;
+    background-color: white;
+    padding: 15px 20px;
+}
+
+/*CAJA 9*/
+.bck-box.bck-box-9 {
+    padding: 0;
+    border: 0;
+}
+.bck-box-9>.bck-title {
+    margin-left: 20px;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+.bck-box-9>.bck-content {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: var(--colorppal);
+    color: #fff;
+}
+/*CAJA 10*/
+.bck-box.bck-box-10 {
+    border: 0;
+    background-color: var(--colortrans);
+}
+/*CAJA 11*/
+.bck-box.bck-box-11 {
+    background-color: #7eff5180;
+    border: 0;
+    text-align: center;
+}
+/*CAJA 12*/
+.bck-box.bck-box-12 {
+    background-color: #7eff5180;
+    border: 0;
+}
 
 /*Desplegables*/
 /*---*/
@@ -705,7 +957,7 @@ body .bck-box .bck-title p {
   .body_clase #actividad .bck-dropdown .bck-dropdown-titulo {
     color: #000;
     cursor: pointer;
-    font-size: 18px;
+    font-size: var(--TextoSecundario);
     font-weight: bold;
     padding-right: 40px;
   }
@@ -773,11 +1025,105 @@ body .bck-box .bck-title p {
     background-color: #C7C5C5;
 }
 
+/*Desplegable 3*/
+.body_clase #actividad .bck-dropdown-3 {
+    margin: 25px 0 25px;
+}
+.body_clase #actividad .bck-dropdown-3 .bck-dropdown-button {
+    background-color: #35EDC5;
+    font-size: var(--TextoSecundario);
+    padding: 0px 15px 0 18px;
+    border-radius: 30px;
+}
+.body_clase #actividad .bck-dropdown-3 .bck-dropdown-titulo {
+    font-family: 'Sen',sans-serif;
+    font-size: var(--TextoSecundario);
+    font-weight: normal;
+    padding-right: 10px;
+}
+.body_clase #actividad .bck-dropdown-3 .bck-dropdown-content {
+    background-color: white;
+    border: 4px solid #35edc5;
+    border-radius: 0px 30px 30px 30px;
+    font-size: var(--TextoGeneral);
+    line-height: var(--LineHeightGen);
+}
+.body_clase #actividad .bck-dropdown-3 .bck-dropdown-content p {
+    line-height: var(--LineHeightGen) !important;
+}
+
+.body_clase #actividad .bck-dropdown-3 .bck-dropdown-icon {
+    left: -28px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: #35edc5;
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    top: -11px;
+    height: 50px;
+    width: 50px;
+}
+.body_clase #actividad .bck-dropdown-3 .bck-dropdown-icon>.fa {
+    display: flex;
+    -moz-transition: transform 0.2s ease-in-out;
+    -webkit-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    align-items: center;
+    justify-content: center;
+}
+.body_clase #actividad .bck-dropdown-3 .bck-dropdown-icon>.fa-chevron-up {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+.body_clase #actividad .bck-dropdown-3 .bck-dropdown-icon>.fa:before {
+    content: "";
+    background-image: url(images/icono_desplegable3.png);
+    padding: 22px 23px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*Desplegable 4*/
+.body_clase #actividad .bck-dropdown-4 .bck-dropdown-button {
+    border-radius: 30px;
+    min-width: 300px;
+    padding: 5px;
+}
+.body_clase #actividad .bck-dropdown-4 .bck-dropdown-icon {
+    color: #fff;
+}
+.body_clase #actividad .bck-dropdown-4 .bck-dropdown-icon>.fa {
+    color: #fff;
+}
+.body_clase #actividad .bck-dropdown-4 .bck-dropdown-titulo {
+    color: #fff;
+    font-family: 'Sen', sans-serif;
+    font-weight: normal;
+    padding-right: 40px;
+}
+.body_clase #actividad .bck-dropdown-4 .bck-dropdown-content {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-size: var(--TextoGeneral);
+}
+.body_clase #actividad .bck-dropdown-4 .bck-dropdown-content p {
+    line-height: var(--LineHeightGen) !important;
+}
+
+
+
+
 /*---*/
 /*Flipbox*/
 body:not(.edit) .bck-flipbox {
 		margin: 15px 0;
-		font-size: 18px;
+		font-size: var(--TextoGeneral);
 }
 
 body:not(.edit) .bck-flipbox-face.front {
@@ -792,14 +1138,17 @@ body:not(.edit) .bck-flipbox-face.front {
     align-items: center;
     justify-content: center;
     align-content: center;
+    border-radius: 10px;
 }
 body:not(.edit) .bck-flipbox-face.back {
     color: #595959;
-    border: 2px solid #000000;
+    border: 2px solid var(--colorsecundario);
     background: #FFF;
+    border-radius: 10px;
 }
 body:not(.edit) .bck-flipbox-section {
     text-align: left;
+    border-radius: 30px;
 }
 body:not(.edit) .front .bck-flipbox-title,
  body:not(.edit) .front .bck-flipbox-section {
@@ -813,7 +1162,6 @@ body:not(.edit) .back .bck-flipbox-title,
  body:not(.edit) .back .bck-flipbox-section {
     color: #000;
     padding: 20px;
-    font-size: 16px;
 }
 body:not(.edit)  .bck-flipbox-title,
  body:not(.edit) .bck-flipbox-section p {
@@ -837,9 +1185,8 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     position: relative;
     margin-bottom: 10px;
     margin-left: 0;
-    line-height: inherit;
-    font-size: 15px;
-    line-height: 25px !important;
+    font-size: var(--TextoGeneral);
+    line-height: var(--LineHeightGen) !important;
 }
 #actividad .content .texto_curso .bck-ul,
 #actividad .content .cke_contents .bck-ul,
@@ -860,7 +1207,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 	padding-left: 20px;
 }
 #actividad .content ul.bck-ul li {
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
 }
 
 
@@ -912,15 +1259,6 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 
 /*Lista desordenada 2*/
 
-#actividad .content .texto_curso .bck-ul-2 li::before,
-#actividad .content .cke_contents .bck-ul-2 li::before,
- #actividad .content .workspace ul li .bck-ul-2 li::before {
-content: "";
-    height: 2px;
-    width: 7px;
-    margin-top: 10px;
-}
-
 /*General ordenadas*/
  .texto_curso ol,
    .workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ol,
@@ -936,7 +1274,7 @@ content: "";
     list-style-type: none;
     counter-increment: bck-li-counter 1;
     position: relative;
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
 }
 
 #actividad .content .texto_curso .bck-ol li:before,
@@ -945,7 +1283,7 @@ content: "";
 	content: counter(bck-li-counter);
     position: relative;
     text-align: left;
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
     font-family: 'Inter', sans-serif;
 	margin-left: -10px; 
 	left: 0;
@@ -986,7 +1324,7 @@ content: "";
     font-weight: normal;
     position: absolute;
     color: inherit;
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
     width: 28px;
     margin-top: 0px;
     left: -33px;
@@ -1014,7 +1352,7 @@ content: "";
     font-weight: normal;
     position: absolute;
     color: inherit;
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
     width: 28px;
     margin-top: 0px;
     left: -33px;
@@ -1035,7 +1373,7 @@ content: "";
     position: relative;
     background: none;
     color: #fff;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
     color: #000;
     border-bottom: 0;
     font-weight: bold;
@@ -1210,43 +1548,6 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     margin-top: 0;
 }
 
-.item-container .icon-tic:before {
-    background-image: url(images/icono_tic.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
-}
-.item-container .icon-cooperativo:before {
-    background-image: url(images/icono_cooperativo.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
-}
-.item-container .icon-emprendimiento:before {
-    background-image: url(images/icono_emprendimiento.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
-}
-.item-container .icon-ods:before {
-    background-image: url(images/icono_ods.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
-}
-.item-container .icon-pensamiento:before {
-    background-image: url(images/icono_pensamiento.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
-}
-.item-container .icon-plc:before {
-    background-image: url(images/icono_plc.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
-}
-
 /*Lupa para imágenes*/
 body:not(.edit) #actividad a.zoom_flag_img {
     background-color: var(--colortrans);
@@ -1255,7 +1556,6 @@ body:not(.edit) #actividad a.zoom_flag_img {
     right: 0;
 }
 
-
 /*Ajuste en imágenes*/
 .bck-i-fullscreen-wrapper {
     padding: 0;
@@ -1263,6 +1563,7 @@ body:not(.edit) #actividad a.zoom_flag_img {
 #actividad .content img {
     margin-top: 0;
 }
+/*
 
 /*Ajustes video*/
 .video.video-js .vjs-big-play-button {
@@ -1296,8 +1597,6 @@ body.view-mode .bck-subtitles {
 }
 
 
-
-/*
 
 /*Barra de separación (HR)*/
 hr {
@@ -1378,7 +1677,7 @@ hr {
 }
 .fillblanks-draggable-wrapper .response p {
     padding: 9px 10px;
-    font-size: inherit;
+    font-size: var(--TextoGeneral);
 }
 .slide_main input[disabled], 
 .slide_main input[readonly],
@@ -1711,15 +2010,15 @@ table,
 table td,
 .bck-table td {
 	border-color: #000;
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
+    padding: 10px;
 }
-
 .bck-table-1 {
 	border-color: var(--colorppal);
 }
 .bck-table-1 td {
 	border-color: var(--colorppal);
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
 }
 
 .bck-table-2 {
@@ -1727,7 +2026,17 @@ table td,
 }
 .bck-table-2 td {
 	border-color: var(--GrisAnaya);
-    font-size: 15px;
+    font-size: var(--TextoGeneral);
+}
+
+.bck-table-3 {
+    border: 0;
+    border-collapse: separate;
+    font-family: 'Montserrat';
+}
+.bck-table-3 td {
+    border-radius: 5px;
+    border: 1px dashed #8b8b8b;
 }
 
 td,
@@ -1738,16 +2047,51 @@ th {
 /*Celda*/
 table td.bck-td-1 {
     color: #000;
-    background-color: var(--colorppal);
-    font-weight: bold;
+    background-color: #fff;
     text-align: center;
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 table td.bck-td-2 {
-    background-color: #EAEAEA;
+    color: #000;
+    background-color: var(--colorppal);
+    text-align: center;
+    font-size: var(--TextoGeneral);
 }
 table td.bck-td-3 {
-    background-color: var(--colortrans);
+    color: #000;
+    background-color: var(--colorsecundario);
+    text-align: center;
+    font-size: var(--TextoGeneral);
+}
+table td.bck-td-4 {
+    color: #000;
+    background-color: #FAFE4C;
+    text-align: center;
+    font-size: var(--TextoGeneral);
+}
+table td.bck-td-5 {
+    color: #000;
+    background-color: #B3FB9A;
+    text-align: center;
+    font-size: var(--TextoGeneral);
+}
+table td.bck-td-6 {
+    color: #000;
+    background-color: #F4F6EE;
+    text-align: center;
+    font-size: var(--TextoGeneral);
+}
+table td.bck-td-7 {
+    color: #000;
+    background-color: #EBEBEB;
+    text-align: center;
+    font-size: var(--TextoGeneral);
+}
+table td.bck-td-8 {
+    color: #000;
+    background-color: #F9D3E4;
+    text-align: center;
+    font-size: var(--TextoGeneral);
 }
 
 /*SECCIONES*/
@@ -1761,40 +2105,45 @@ body:not(.edit) #actividad .carousel-inner .fondotransparente .item-container.au
 #actividad .carousel-inner .class_slide {
     padding: 40px 40px 0px;
 }
-.bck-box.bck-box-3 {
-    width: calc(100% + 80px);
-    margin-left: -40px;
-    padding: 15px 40px;
-}
 }
 
 @media only screen 
 and (max-width : 480px) {
+
+:root {
+--TextoGeneral: 18px;
+--LineHeightGen: 25px;
+--TextoSecundario: 16px;
+--LineHeightSecundario: 22px;
+}  
+#actividad .content .header .title h3 {
+    font-size: 40px;
+} 
+.bck-title-1 {
+    font-size: 40px;
+}
+.bck-title-2{
+    font-size: 30px;
+} 
+.bck-title-3 {
+    font-size: 24px;
+}
+
 .texto_curso p {
     line-height: 2.8rem !important;
 }
 #actividad .texto_curso {
-    font-size: 18px;
-    line-height: 2.8rem !important;
+    font-size: var(--TextoGeneral);
+    line-height: var(--LineHeightGen) !important;
 }
 #actividad .pregunta .texto_curso {
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 #actividad textarea {
-    font-size: 18px;
+    font-size: var(--TextoGeneral);
 }
 #actividad .class_slide .review {
     text-align: center;
-}
-#actividad .content .header .title h3,
-.bck-title-1 {
-    font-size: 2.5rem;    
-}
-.bck-title-2 {
-    font-size: 2.2rem;
-}
-.bck-title-3 {
-    font-size: 18px;
 }
 .puzzle-wrapper {
     width: 100%;
