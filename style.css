@@ -127,8 +127,9 @@
 
     /*Tamaños textos*/
     --TextoGeneral: 20px;
-    --TextoSecundario: 16px;
-    --LineHeightGen: 28px
+    --LineHeightGen: 29px;
+    --TextoSecundario: 18px;
+    --LineHeightSecundario: 25px;
 }
 
 b,
@@ -600,7 +601,7 @@ body:not(.edit) .bck-file-label:before {
 .bck-title-4 {
     background-color: #90F6BB;
     color: #000;
-    font-size: calc(var(--TextoGeneral) - 2px);
+    font-size: var(--TextoSecundario);
     font-weight: normal;
     border-radius: 30px;
     padding: 7px 15px;
@@ -614,7 +615,7 @@ body:not(.edit) .bck-file-label:before {
 .bck-title-5 {
     background-color: #FF906D;
     color: #fff;
-    font-size: calc(var(--TextoGeneral) - 2px);
+    font-size: var(--TextoSecundario);
     font-weight: normal;
     border-radius: 30px;
     padding: 7px 15px;
@@ -628,7 +629,7 @@ body:not(.edit) .bck-file-label:before {
 .bck-title-6 {
     background-color: #EBFFB2;
     color: #000;
-    font-size: calc(var(--TextoGeneral) - 2px);
+    font-size: var(--TextoSecundario);
     font-weight: normal;
     border-radius: 30px;
     padding: 7px 15px;
@@ -642,7 +643,7 @@ body:not(.edit) .bck-file-label:before {
 .bck-title-7 {
     background-color: #fff;
     color: #000;
-    font-size: calc(var(--TextoGeneral) - 2px);
+    font-size: var(--TextoSecundario);
     font-weight: normal;
     border: 1px solid var(--colorppal);
     border-radius: 30px;
@@ -962,7 +963,7 @@ body .bck-box .bck-title p {
   .body_clase #actividad .bck-dropdown .bck-dropdown-titulo {
     color: #000;
     cursor: pointer;
-    font-size: calc(var(--TextoGeneral) - 2px);
+    font-size: var(--TextoSecundario);
     font-weight: bold;
     padding-right: 40px;
   }
@@ -1032,13 +1033,13 @@ body .bck-box .bck-title p {
 }
 .body_clase #actividad .bck-dropdown-3 .bck-dropdown-button {
     background-color: #35EDC5;
-    font-size: calc(var(--TextoGeneral) - 2px);
+    font-size: var(--TextoSecundario);
     padding: 0px 15px 0 18px;
     border-radius: 30px;
 }
 .body_clase #actividad .bck-dropdown-3 .bck-dropdown-titulo {
     font-family: 'Sen',sans-serif;
-    font-size: calc(var(--TextoGeneral) - 4px);
+    font-size: var(--TextoSecundario);
     font-weight: normal;
     padding-right: 10px;
 }
@@ -1259,15 +1260,6 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 }
 
 /*Lista desordenada 2*/
-
-#actividad .content .texto_curso .bck-ul-2 li::before,
-#actividad .content .cke_contents .bck-ul-2 li::before,
- #actividad .content .workspace ul li .bck-ul-2 li::before {
-content: "";
-    height: 2px;
-    width: 7px;
-    margin-top: 10px;
-}
 
 /*General ordenadas*/
  .texto_curso ol,
@@ -2124,15 +2116,18 @@ body:not(.edit) #actividad .carousel-inner .fondotransparente .item-container.au
 #actividad .carousel-inner .class_slide {
     padding: 40px 40px 0px;
 }
-.bck-box.bck-box-3 {
-    width: calc(100% + 80px);
-    margin-left: -40px;
-    padding: 15px 40px;
-}
 }
 
 @media only screen 
 and (max-width : 480px) {
+
+:root {
+--TextoGeneral: 18px;
+--LineHeightGen: 25px;
+--TextoSecundario: 16px;
+--LineHeightSecundario: 22px;
+}    
+
 .texto_curso p {
     line-height: 2.8rem !important;
 }
@@ -2148,16 +2143,6 @@ and (max-width : 480px) {
 }
 #actividad .class_slide .review {
     text-align: center;
-}
-#actividad .content .header .title h3,
-.bck-title-1 {
-    font-size: 2.5rem;    
-}
-.bck-title-2 {
-    font-size: 2.2rem;
-}
-.bck-title-3 {
-    font-size: 18px;
 }
 .puzzle-wrapper {
     width: 100%;
