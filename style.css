@@ -1550,43 +1550,6 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     margin-top: 0;
 }
 
-.item-container .icon-tic:before {
-    background-image: url(images/icono_tic.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
-}
-.item-container .icon-cooperativo:before {
-    background-image: url(images/icono_cooperativo.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
-}
-.item-container .icon-emprendimiento:before {
-    background-image: url(images/icono_emprendimiento.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
-}
-.item-container .icon-ods:before {
-    background-image: url(images/icono_ods.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
-}
-.item-container .icon-pensamiento:before {
-    background-image: url(images/icono_pensamiento.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
-}
-.item-container .icon-plc:before {
-    background-image: url(images/icono_plc.png);
-    width: 30px;
-    height: 35px;
-    vertical-align: middle;
-}
-
 /*Lupa para imágenes*/
 body:not(.edit) #actividad a.zoom_flag_img {
     background-color: var(--colortrans);
@@ -2126,7 +2089,19 @@ and (max-width : 480px) {
 --LineHeightGen: 25px;
 --TextoSecundario: 16px;
 --LineHeightSecundario: 22px;
-}    
+}  
+#actividad .content .header .title h3 {
+    font-size: 40px;
+} 
+.bck-title-1 {
+    font-size: 40px;
+}
+.bck-title-2{
+    font-size: 30px;
+} 
+.bck-title-3 {
+    font-size: 24px;
+}
 
 .texto_curso p {
     line-height: 2.8rem !important;
