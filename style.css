@@ -381,6 +381,10 @@ body {
     padding-bottom: 90px;
     position: relative;
 }
+    /*Margin Bottom al grid para respetar el margin-bottom de los párrafos*/
+    .bck-row {
+        margin-bottom: 15px;
+    }
 
 
 /*Input Blanco*/
