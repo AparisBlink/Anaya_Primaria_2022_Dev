@@ -649,7 +649,11 @@ body:not(.edit) .bck-file-label:before {
     text-transform: uppercase;
     margin: 20px 0 10px;
 }
-
+.bck-title-8 {
+    color: #000;
+    font-size: var(--TextoSecundario);
+    font-weight: 500;
+}
 
 
 /*Énfasis */
