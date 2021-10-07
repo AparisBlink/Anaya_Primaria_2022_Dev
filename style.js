@@ -72,9 +72,9 @@
 				{ name: 'Énfasis 22', element: 'span', attributes: { 'class': 'bck-enfasis-22'} },
 
 				{ name: 'L.123 Punto', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
-				{ name: 'L.123 Medium', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
-				{ name: 'L.abc Parentesis', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-3' } },
-				{ name: 'L.abc Punto', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-4' } },
+				{ name: 'L.abc Paréntesis', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
+				{ name: 'L.abc Punto', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-3' } },
+				{ name: 'L.123 Medium', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-4' } },
 				{ name: 'L.123 Indentado', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-5' } },
 				{ name: 'Ol.06', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-6' } },
 				{ name: 'Ol.07', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-7' } },
