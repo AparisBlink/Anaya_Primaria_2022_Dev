@@ -115,7 +115,7 @@
 				{ name: 'Caja 10', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-10' } },
 				{ name: 'Caja 11 Centrada', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-11' } },
 				{ name: 'Caja 12 Izq', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-12' } },
-				{ name: 'Caja 13', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-13' } },
+				{ name: 'Caja 13 Borde Rosa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-13' } },
 				{ name: 'Caja 14', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-14' } },
 				{ name: 'Caja 15', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-15' } },
 				{ name: 'Caja 16', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-16' } },
