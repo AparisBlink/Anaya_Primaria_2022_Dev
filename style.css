@@ -986,7 +986,7 @@ body .bck-box .bck-title p {
 /*CAJA 10*/
 .bck-box.bck-box-10 {
     border: 0;
-    background-color: var(--colortrans);
+    background-color: var(--colorsecundariotrans);
 }
 /*CAJA 11*/
 .bck-box.bck-box-11 {
@@ -998,6 +998,19 @@ body .bck-box .bck-title p {
 .bck-box.bck-box-12 {
     background-color: #7eff5180;
     border: 0;
+}
+/*CAJA 13*/
+.bck-box.bck-box-13 {
+    background-color: white;
+    color: #231F20;
+    border: 3px dashed var(--colorppal);
+    margin: 20px 0px 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+ .bck-box.bck-box-13>.bck-title {
+}
+.bck-box.bck-box-13>.bck-content {
 }
 
 /*Desplegables*/
