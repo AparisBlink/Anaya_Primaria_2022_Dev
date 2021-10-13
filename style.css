@@ -676,6 +676,13 @@ body:not(.edit) .bck-file-label:before {
     font-weight: bold;
     margin: 15px 0 5px;
 }
+.bck-title-11 {
+    color: #000;
+    font-size: 36px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-weight: normal;
+    margin: 20px 0 15px;
+}
 /*Estilo de párrafo*/
 p.bck-p-1 {
     font-family: 'PT Serif', serif;
