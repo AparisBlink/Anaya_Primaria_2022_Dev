@@ -24,7 +24,7 @@
 				{ name: ' T.08 Subtitulos', element: 'h3', attributes: { 'class': 'bck-title-8'} },
 				{ name: ' T.09 Resaltado Strong', element: 'h3', attributes: { 'class': 'bck-title-9'} },
 				{ name: ' T.10 Cita Titulo', element: 'h3', attributes: { 'class': 'bck-title-10'} },
-				{ name: ' T.11', element: 'h3', attributes: { 'class': 'bck-title-11'} },
+				{ name: ' T.11 Principal 36px', element: 'h3', attributes: { 'class': 'bck-title-11'} },
 				{ name: ' T.12', element: 'h3', attributes: { 'class': 'bck-title-12'} },
 				{ name: ' T.13', element: 'h3', attributes: { 'class': 'bck-title-13'} },
 				{ name: ' T.14', element: 'h3', attributes: { 'class': 'bck-title-14'} },
