@@ -1013,6 +1013,13 @@ body .bck-box .bck-title p {
 .bck-box.bck-box-13>.bck-content {
 }
 
+/*CAJA 14*/
+.bck-box-14 {
+    background-color: #D2FF51;
+    border: 0;
+    border-radius: 30px;
+}
+
 /*Desplegables*/
 /*---*/
 /* Content: Dropdown box */
