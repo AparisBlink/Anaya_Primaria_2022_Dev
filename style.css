@@ -1324,6 +1324,13 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 }
 
 /*Lista desordenada 2*/
+#actividad .content .texto_curso .bck-ul-2 li::before,
+#actividad .content .cke_contents .bck-ul-2 li::before,
+ #actividad .content .workspace ul li .bck-ul-2 li::before {
+	background-color:#000;
+	color: #000;
+    margin-top: 13px;
+}
 
 /*General ordenadas*/
  .texto_curso ol,
