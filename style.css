@@ -735,7 +735,8 @@ p.bck-p-4 {
     text-align: left;
 	background: inherit;
 	padding: 20px;
-	margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border: 1px solid var(--colorppal);
 }
 .bck-title {
@@ -753,6 +754,8 @@ p.bck-p-4 {
 }
 .bck-box.center {
     text-align: inherit;
+    margin-left: auto;
+    margin-right: auto;
 }
 .texto_curso .bck-box p {
     margin: 0 0 15px;
@@ -776,14 +779,11 @@ body .bck-box .bck-title p {
 .bck-box.bck-box-1:before {
     display: none;
 }
-.bck-box.bck-box-1, 
-    .bck-box.box-1 {
-        margin: 20px 0;
+.bck-box.bck-box-1 {
         padding: 0;
         border: 0;
 }
-.bck-box.bck-box-1>.bck-title, 
-    .bck-box.box-1>.bck-title {
+.bck-box.bck-box-1>.bck-title {
         background-color: #D2FF51;
         font-weight: bold;
         font-size: var(--TextoGeneral);
@@ -798,8 +798,7 @@ body .bck-box .bck-title p {
         z-index: 1;
         margin-bottom: -17px;
 }
-.bck-box.bck-box-1>.bck-content, 
-    .bck-box.box-1>.bck-content {
+.bck-box.bck-box-1>.bck-content {
         padding: 20px 20px;
         border: 4px dotted var(--colorsecundario);
         border-radius: 30px;
@@ -809,21 +808,18 @@ body .bck-box .bck-title p {
 }
 
 /* CAJA 2 */
-.bck-box.bck-box-2>.bck-title:before, 
-    .bck-box.bck-box2>.bck-title:before {
+.bck-box.bck-box-2>.bck-title:before {
 	display: none;
 }
-.bck-box.bck-box-2, 
-    .bck-box.bck-box2 {
+.bck-box.bck-box-2 {
     background-color: white;
     color: #231F20;
     border: 0;
-    margin: 35px 0px 20px;
+    margin-top: 35px;
     padding: 0;
     border-radius: 0;
 }
- .bck-box.bck-box-2>.bck-title, 
-    .bck-box.bck-box2>.bck-title {
+ .bck-box.bck-box-2>.bck-title {
     margin-left: 20px;
     color: #8C8C8C;
     font-weight: 500;
@@ -831,8 +827,7 @@ body .bck-box .bck-title p {
     font-size: 24px;
     padding-bottom: 5px;
 }
-.bck-box.bck-box-2>.bck-content, 
-    .bck-box.bck-box2>.bck-content {
+.bck-box.bck-box-2>.bck-content {
     padding: 10px 20px;
     border: 3px dashed var(--colorsecundario);
     border-radius: 20px;
@@ -840,7 +835,6 @@ body .bck-box .bck-title p {
 
 /*CAJA 3 */
 .bck-box.bck-box-3 {
-    margin: 20px 0px 20px;
     padding: 0;
     border: 0;
     font-family: 'Montserrat', sans-serif;
@@ -859,7 +853,7 @@ body .bck-box .bck-title p {
 
 /*CAJA 4 */
 .bck-box.bck-box-4 {
-    margin: 40px 0px 20px;
+    margin-top: 40px;
     padding: 15px 20px;
     border: 4px dotted var(--colorsecundario);
     border-radius: 30px;
@@ -895,7 +889,6 @@ body .bck-box .bck-title p {
 .bck-box.bck-box-5 {
     padding: 0;
     border: 0;
-    margin: 20px 0 20px 0;
 }
 .bck-box-5>.bck-title {
     font-size: 24px;
@@ -915,7 +908,6 @@ body .bck-box .bck-title p {
 .bck-box.bck-box-6 {
     padding: 0;
     border: 0;
-    margin: 20px 0 20px 0px;
     font-family: 'Love Ya Like A Sister',cursive;
 }
 .bck-box-6>.bck-title {
@@ -937,7 +929,6 @@ body .bck-box .bck-title p {
     background-color: white;
     color: #231F20;
     border: 3px dashed var(--colorsecundario);
-    margin: 20px 0px 20px;
     padding: 10px 20px;
     border-radius: 20px;
 }
@@ -950,7 +941,6 @@ body .bck-box .bck-title p {
 .bck-box.bck-box-8 {
     padding: 0;
     border: 0;
-    margin: 20px 0 20px 0;
 }
 .bck-box-8>.bck-title {
     font-size: 24px;
@@ -1004,7 +994,6 @@ body .bck-box .bck-title p {
     background-color: white;
     color: #231F20;
     border: 3px dashed var(--colorppal);
-    margin: 20px 0px 20px;
     padding: 10px 20px;
     border-radius: 20px;
 }
