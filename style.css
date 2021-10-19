@@ -401,8 +401,7 @@ body {
 }
 #actividad .carousel-inner .item-container.aux-fullscreen,
  #actividad .carousel-inner .item-container.aux-bckg {
-     width: 95%;
-     max-width: 95%;
+     max-width: 1900px;
 }
     /*Margin Bottom al grid para respetar el margin-bottom de los párrafos*/
     .bck-row {
