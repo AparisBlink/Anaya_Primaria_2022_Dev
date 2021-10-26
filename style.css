@@ -1231,6 +1231,7 @@ body:not(.edit) .bck-flipbox-face.back {
     border: 2px solid var(--colorsecundario);
     background: #FFF;
     border-radius: 10px;
+    min-height: 100px;
 }
 body:not(.edit) .bck-flipbox-section {
     text-align: left;
