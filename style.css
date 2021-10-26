@@ -1279,7 +1279,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
   .workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ul, 
   .workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ol, 
   .cke_contents ul, .cke_contents ol, .popover-content ul, .popover-content ol {
-    margin: 15px 0;
+    margin: 15px 0 15px 21px;
 }
 
 /*LISTAS DESORDENADAS*/
@@ -1289,7 +1289,6 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 #actividad .content ul.bck-ul li {
     font-size: var(--TextoGeneral);
 }
-
 
 .texto_curso ul li:before,
 .workspace ul li ul li:before,
@@ -1347,12 +1346,6 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 }
 
 /*General ordenadas*/
- .texto_curso ol,
-   .workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ol,
-     .cke_contents ol,
-       .popover-content ol {
-        padding-left: 20px; 
-}
 
 #actividad .content .texto_curso .bck-ol li,
  #actividad .popover-content .bck-ol li,
@@ -1394,7 +1387,6 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     z-index: 0;
     font-weight: normal;
     color: #000;
-    margin-left: 20px;
 }
 
 #actividad .content .cke_contents .bck-ol-1 li:before,
@@ -1428,7 +1420,6 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     counter-increment: bck-li-counter;
     padding-left: 0;
     position: relative;
-    margin-left: 20px;
 }
 #actividad .content .cke_contents ol.bck-ol-2 li:before,
 #actividad .content .texto_curso ol.bck-ol-2 li:before,
@@ -1456,7 +1447,6 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     counter-increment: bck-li-counter;
     padding-left: 0;
     position: relative;
-    margin-left: 20px;
 }
 #actividad .content .cke_contents ol.bck-ol-3 li:before,
 #actividad .content .texto_curso ol.bck-ol-3 li:before,
@@ -1484,7 +1474,6 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     counter-increment: bck-li-counter;
     padding-left: 0;
     position: relative;
-    margin-left: 20px;
     font-weight: 500;
 }
 #actividad .content .cke_contents ol.bck-ol-4 li:before,
@@ -1512,7 +1501,6 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     counter-increment: bck-li-counter;
     padding-left: 0;
     position: relative;
-    margin-left: 20px;
 }
 #actividad .content .cke_contents ol.bck-ol-5 li:before,
 #actividad .content .texto_curso ol.bck-ol-5 li:before,
