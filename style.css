@@ -2256,6 +2256,12 @@ table td.bck-td-8 {
     text-align: center;
     font-size: var(--TextoGeneral);
 }
+table td.bck-td-9 {
+    text-align: left;
+}
+table td.bck-td-10 {
+    text-align: right;
+}
 
 /*SECCIONES*/
 /*fondotransparente*/
