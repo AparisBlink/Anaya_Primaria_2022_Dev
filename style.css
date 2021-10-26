@@ -1264,7 +1264,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
   .workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ul, 
   .workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ol, 
   .cke_contents ul, .cke_contents ol, .popover-content ul, .popover-content ol {
-    margin: 15px 0 15px 21px;
+    margin: 15px 0 15px 0px;
     padding: 0;
 }
 #actividad .texto_curso li,
@@ -1278,10 +1278,10 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 /*---*/
 
 /*Ajuste general listas con clase*/
-.cke_contents .bck-ol,
-  .content .bck-ol {
+.cke_contents ol.bck-ol,
+  .content ol.bck-ol {
     counter-reset: bck-li-counter;
-    margin: 15px 0 15px 21px;
+    margin: 15px 0 15px 0px;
 }
 #actividad .content .texto_curso .bck-ul,
 #actividad .content .cke_contents .bck-ul,
