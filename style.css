@@ -1209,6 +1209,7 @@ body .bck-box .bck-title p {
 body:not(.edit) .bck-flipbox {
 		margin: 15px 0;
 		font-size: var(--TextoGeneral);
+        min-height: 100px;
 }
 
 body:not(.edit) .bck-flipbox-face.front {
@@ -1238,15 +1239,17 @@ body:not(.edit) .bck-flipbox-section {
 body:not(.edit) .front .bck-flipbox-title,
  body:not(.edit) .front .bck-flipbox-section {
     color: #fff;
-    border: 1px solid #333333;
+    border: 1px solid #fff;
     width: 100%;
     padding: 20px;
     font-weight: bold;
+    text-align: center;
 }
 body:not(.edit) .back .bck-flipbox-title,
  body:not(.edit) .back .bck-flipbox-section {
     color: #000;
     padding: 20px;
+    text-align: center;
 }
 body:not(.edit)  .bck-flipbox-title,
  body:not(.edit) .bck-flipbox-section p {
