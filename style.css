@@ -626,6 +626,7 @@ body:not(.edit) .bck-file-label:before {
     font-family: 'Sen', sans-serif;
     text-transform: uppercase;
     margin: 20px 0 10px;
+    text-align: center;
 }
 .bck-title-5 {
     background-color: #FF906D;
@@ -640,6 +641,7 @@ body:not(.edit) .bck-file-label:before {
     font-family: 'Sen', sans-serif;
     text-transform: uppercase;
     margin: 20px 0 10px;
+    text-align: center;
 }
 .bck-title-6 {
     background-color: #EBFFB2;
@@ -654,6 +656,7 @@ body:not(.edit) .bck-file-label:before {
     font-family: 'Sen', sans-serif;
     text-transform: uppercase;
     margin: 20px 0 10px;
+    text-align: center;
 }
 .bck-title-7 {
     background-color: #fff;
@@ -669,6 +672,7 @@ body:not(.edit) .bck-file-label:before {
     font-family: 'Sen', sans-serif;
     text-transform: uppercase;
     margin: 20px 0 10px;
+    text-align: center;
 }
 .bck-title-8 {
     color: #000;
