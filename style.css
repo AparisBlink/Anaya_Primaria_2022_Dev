@@ -1002,6 +1002,9 @@ body .bck-box .bck-title p {
     border: 0;
     text-align: center;
 }
+.bck-box-11>.bck-content {
+    text-align: center;
+}
 /*CAJA 12*/
 .bck-box.bck-box-12 {
     background-color: #7eff5180;
