@@ -1355,6 +1355,9 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 	background-color:#000;
 	color: #000;
     margin-top: 13px;
+    border-radius: 0;
+    border-radius: 0;
+    height: 2px;
 }
 
 /*General ordenadas*/
