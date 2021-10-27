@@ -746,6 +746,37 @@ p.bck-p-4 {
 .bck-enfasis-4 {
     font-family: 'PT Serif', serif;
 }
+.bck-enfasis-5 {
+    font-family: 'PT Serif', serif;
+    color: var(--colorppal);
+    font-weight: bold;
+}
+.bck-enfasis-6 {
+    color: var(--colorsecundario);
+    font-weight: bold;
+}
+.bck-enfasis-7 {
+    border-bottom: 3px solid var(--colorsecundario);
+}
+.bck-enfasis-8 {
+    background-color: var(--colorsecundario);
+    padding: 2px 7px;
+    border-radius: 3px;
+}
+.bck-enfasis-9 {
+    font-family: 'PT Serif', serif;
+    color: var(--colorsecundario);
+    font-weight: bold;
+}
+.bck-enfasis-10 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 24px;
+}
+.bck-enfasis-11 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 36px;
+}
+
 
 /* ---- CAJAS ---*/
 .bck-box {
