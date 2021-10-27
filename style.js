@@ -173,17 +173,17 @@
 				{ name: 'Desplegable 10', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-10' } },
 
 				{ name: 'Icono Audio', element: 'span', attributes: { 'class': 'icon icon-audio' } },
-				{ name: 'Icono Cooperativo', element: 'span', attributes: { 'class': 'icon icon_cooperativo' } },
-				{ name: 'Icono Emocional', element: 'span', attributes: { 'class': 'icon icon_emocional' } },
-				{ name: 'Icono Emprendimiento', element: 'span', attributes: { 'class': 'icon icon_emprendimiento' } },
-				{ name: 'Icono Evaluacion', element: 'span', attributes: { 'class': 'icon icon_evaluacion' } },
-				{ name: 'Icono Evaluacion Blanc', element: 'span', attributes: { 'class': 'icon icon_evaluacion_blanc' } },
-				{ name: 'Icono Ludico', element: 'span', attributes: { 'class': 'icon icon_ludico' } },
-				{ name: 'Icono ODS', element: 'span', attributes: { 'class': 'icon icon_ods' } },
-				{ name: 'Icono Pensamiento', element: 'span', attributes: { 'class': 'icon icon_pensamiento' } },
-				{ name: 'Icono Pl', element: 'span', attributes: { 'class': 'icon icon_pl' } },
-				{ name: 'Icono Tic', element: 'span', attributes: { 'class': 'icon icon_tic' } },
-				{ name: 'Icono Video', element: 'span', attributes: { 'class': 'icon icon_video' } }
+				{ name: 'Icono Cooperativo', element: 'span', attributes: { 'class': 'icon icon-cooperativo' } },
+				{ name: 'Icono Emocional', element: 'span', attributes: { 'class': 'icon icon-emocional' } },
+				{ name: 'Icono Emprendimiento', element: 'span', attributes: { 'class': 'icon icon-emprendimiento' } },
+				{ name: 'Icono Evaluacion', element: 'span', attributes: { 'class': 'icon icon-evaluacion' } },
+				{ name: 'Icono Evaluacion Blanc', element: 'span', attributes: { 'class': 'icon icon-evaluacion-blanc' } },
+				{ name: 'Icono Ludico', element: 'span', attributes: { 'class': 'icon icon-ludico' } },
+				{ name: 'Icono ODS', element: 'span', attributes: { 'class': 'icon icon-ods' } },
+				{ name: 'Icono Pensamiento', element: 'span', attributes: { 'class': 'icon icon-pensamiento' } },
+				{ name: 'Icono Pl', element: 'span', attributes: { 'class': 'icon icon-pl' } },
+				{ name: 'Icono Tic', element: 'span', attributes: { 'class': 'icon icon-tic' } },
+				{ name: 'Icono Video', element: 'span', attributes: { 'class': 'icon icon-video' } }
 			]
 		},
 		slidesTitle: {},
