@@ -480,7 +480,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 /*Icono audio*/
 #actividad .player.audio {
-	background-image: url(images/Anaya_2022_audio.png);
+	background-image: url(images/icono_audio.png);
 	color: #fff;
     background-color: var(--colorppal) !important;
 }
@@ -1889,10 +1889,51 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     background-position: 50%;
     display: inline-block;
     vertical-align: middle;
-    height: 40px;
-    width: 54px;
-    margin-top: 0;
+    height: 24px;
+    width: 34px;
+    margin: 0 4px;
 }
+
+.item-container .icon-audio:before {
+    background-image: url(images/icono_audio.png);
+}
+.item-container .icon-cooperativo:before {
+    background-image: url(images/icono_cooperativo.png);
+}
+.item-container .icon-emocional:before {
+    background-image: url(images/icono_emocional.png);
+}
+.item-container .icon-emprendimiento:before {
+    background-image: url(images/icono_emprendimiento.png);
+}
+.item-container .icon-evaluacion:before {
+    background-image: url(images/icono_evaluacion.png);
+}
+.item-container .icon-evaluacion_blanc:before {
+    background-image: url(images/icono_evaluacion_blanc.png);
+}
+.item-container .icon-ludico:before {
+    background-image: url(images/icono_ludico.png);
+}
+.item-container .icon-ods:before {
+    background-image: url(images/icono_ods.png);
+}
+.item-container .icon-pensamiento:before {
+    background-image: url(images/icono_pensamiento.png);
+}
+.item-container .icon-pl:before {
+    background-image: url(images/icono_pl.png);
+}
+.item-container .icon-tic:before {
+    background-image: url(images/icono_tic.png);
+}
+.item-container .icon-video:before {
+    background-image: url(images/icono_video.png);
+}
+
+
+
+/*-----*/
 
 /*Lupa para imágenes*/
 body:not(.edit) #actividad a.zoom_flag_img {
