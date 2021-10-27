@@ -431,6 +431,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 	color: var(--colorppal);
 	background-color: transparent;
 }
+
 /*--*/
 
 
@@ -1261,8 +1262,20 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 }
 /*----*/
 
-/*Ajuste general listas */
+/*Ajuste sangrado*/
+/* OJO - El margin-left del bck-indent-1 coincide con el margin-left de las listas ordenadas 5 y 6*/
+.bck-indent-1 {
+    margin-left: 30px !important;
+}
+.bck-indent-2 {
+    margin-left: 60px  !important;
+}
+.bck-indent-3 {
+    margin-left: 90px  !important;
+}
+/*---*/
 
+/*Ajuste general listas */
 /*Ajuste listas sin clase*/
  .cke_contents ol,
    .content ol {
@@ -1380,6 +1393,11 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 	background-color:#000;
 	color: #000;
 }
+#actividad .content .texto_curso .bck-ul-5 li,
+#actividad .content .cke_contents .bck-ul-5 li,
+ #actividad .content .workspace ul li .bck-ul-5 li {
+    margin-left: 30px;
+}
 /*Lista desordenada 6*/
 #actividad .content .texto_curso .bck-ul-6 li::before,
 #actividad .content .cke_contents .bck-ul-6 li::before,
@@ -1391,6 +1409,12 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     border-radius: 0;
     height: 2px;
 }
+#actividad .content .texto_curso .bck-ul-6 li,
+#actividad .content .cke_contents .bck-ul-6 li,
+ #actividad .content .workspace ul li .bck-ul-6 li {
+    margin-left: 30px;
+}
+/*--*/
 
 
 /*General ordenadas*/
