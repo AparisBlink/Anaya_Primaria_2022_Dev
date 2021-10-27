@@ -1789,6 +1789,10 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 
 
 /*Palabras emergentes*/
+.bck-tooltip {
+    text-decoration: none;
+    font-weight: bold;
+}
 .popover.top {
     margin-top: -10px;
     background-color: var(--colorppal);
