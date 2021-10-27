@@ -752,11 +752,11 @@ p.bck-p-4 {
     font-weight: bold;
 }
 .bck-enfasis-6 {
-    color: var(--colorsecundario);
+    color: #aae500;
     font-weight: bold;
 }
 .bck-enfasis-7 {
-    border-bottom: 3px solid var(--colorsecundario);
+    border-bottom: 3px solid #aae500;
 }
 .bck-enfasis-8 {
     background-color: var(--colorsecundariotrans);
@@ -765,7 +765,7 @@ p.bck-p-4 {
 }
 .bck-enfasis-9 {
     font-family: 'PT Serif', serif;
-    color: var(--colorsecundario);
+    color: #aae500;
     font-weight: bold;
 }
 .bck-enfasis-10 {
