@@ -759,7 +759,7 @@ p.bck-p-4 {
     border-bottom: 3px solid var(--colorsecundario);
 }
 .bck-enfasis-8 {
-    background-color: var(--colorsecundario);
+    background-color: var(--colorsecundariotrans);
     padding: 2px 7px;
     border-radius: 3px;
 }
