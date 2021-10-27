@@ -183,7 +183,7 @@
 				{ name: 'Icono Pensamiento', element: 'span', attributes: { 'class': 'icon icon_pensamiento' } },
 				{ name: 'Icono Pl', element: 'span', attributes: { 'class': 'icon icon_pl' } },
 				{ name: 'Icono Tic', element: 'span', attributes: { 'class': 'icon icon_tic' } },
-				{ name: 'Icono Video', element: 'span', attributes: { 'class': 'icon icon_video' } },
+				{ name: 'Icono Video', element: 'span', attributes: { 'class': 'icon icon_video' } }
 			]
 		},
 		slidesTitle: {},
