@@ -1359,6 +1359,39 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     border-radius: 0;
     height: 2px;
 }
+/*Lista desordenada 3*/
+#actividad .content .texto_curso .bck-ul-3 li::before,
+#actividad .content .cke_contents .bck-ul-3 li::before,
+ #actividad .content .workspace ul li .bck-ul-3 li::before {
+	background-color:var(--colorppal);
+	color: var(--colorppal);
+}
+/*Lista desordenada 4*/
+#actividad .content .texto_curso .bck-ul-4 li::before,
+#actividad .content .cke_contents .bck-ul-4 li::before,
+ #actividad .content .workspace ul li .bck-ul-4 li::before {
+	background-color:var(--colorsecundario);
+	color: var(--colorsecundario);
+}
+/*Lista desordenada 5*/
+#actividad .content .texto_curso .bck-ul-5 li::before,
+#actividad .content .cke_contents .bck-ul-5 li::before,
+ #actividad .content .workspace ul li .bck-ul-5 li::before {
+	background-color:#000;
+	color: #000;
+}
+/*Lista desordenada 6*/
+#actividad .content .texto_curso .bck-ul-6 li::before,
+#actividad .content .cke_contents .bck-ul-6 li::before,
+ #actividad .content .workspace ul li .bck-ul-6 li::before {
+	background-color:#000;
+	color: #000;
+    margin-top: 13px;
+    border-radius: 0;
+    border-radius: 0;
+    height: 2px;
+}
+
 
 /*General ordenadas*/
 #actividad .content .texto_curso .bck-ol li,
