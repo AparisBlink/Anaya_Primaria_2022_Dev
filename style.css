@@ -1263,7 +1263,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 /*----*/
 
 /*Ajuste sangrado*/
-/* OJO - El margin-left del bck-indent-1 coincide con el margin-left de las listas ordenadas 5 y 6*/
+/* OJO - El margin-left del bck-indent-1 coincide con el margin-left de las listas desordenadas 5 y 6 y Lista ordenada 08*/
 .bck-indent-1 {
     margin-left: 30px !important;
 }
@@ -1586,6 +1586,88 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     width: 28px;
     margin-top: 0px;
     left: -39px;
+    top: 0px;
+    margin-left: -1px;
+    text-align: right;
+}
+/*Lista ordenada 6*/
+#actividad .content .cke_contents .bck-ol-6 li,
+#actividad .content .texto_curso .bck-ol-6 li,
+ #actividad .popover-content .bck-ol-6 li,
+  #actividad .content .workspace ul li .bck-ol-6 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0;
+    position: relative;
+}
+#actividad .content .cke_contents ol.bck-ol-6 li:before,
+#actividad .content .texto_curso ol.bck-ol-6 li:before,
+ #actividad .popover-content ol.bck-ol-6 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-6 li:before {
+    content: counter(bck-li-counter);
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    background-color: var(--colorppal);
+    color: inherit;
+    font-size: var(--TextoGeneral);
+    width: 28px;
+    margin-top: 0px;
+    left: -39px;
+    top: 0px;
+    margin-left: -1px;
+    text-align: right;
+}
+
+/*Lista ordenada 7*/
+#actividad .content .cke_contents .bck-ol-7 li,
+#actividad .content .texto_curso .bck-ol-7 li,
+ #actividad .popover-content .bck-ol-7 li,
+  #actividad .content .workspace ul li .bck-ol-7 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0;
+    position: relative;
+}
+#actividad .content .cke_contents ol.bck-ol-7 li:before,
+#actividad .content .texto_curso ol.bck-ol-7 li:before,
+ #actividad .popover-content ol.bck-ol-7 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-7 li:before {
+    content: counter(bck-li-counter);
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    background-color: var(--colorsecundario);
+    color: inherit;
+    font-size: var(--TextoGeneral);
+    width: 28px;
+    margin-top: 0px;
+    left: -39px;
+    top: 0px;
+    margin-left: -1px;
+    text-align: right;
+}
+/*Lista ordenada 8*/
+#actividad .content .cke_contents .bck-ol-8 li,
+#actividad .content .texto_curso .bck-ol-8 li,
+ #actividad .popover-content .bck-ol-8 li,
+  #actividad .content .workspace ul li .bck-ol-8 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0;
+    position: relative;
+    margin-left: 30px;
+}
+#actividad .content .cke_contents ol.bck-ol-8 li:before,
+#actividad .content .texto_curso ol.bck-ol-8 li:before,
+ #actividad .popover-content ol.bck-ol-8 li:before,
+  #actividad .content .workspace ul li ol.bck-ol-8 li:before {
+    content: counter(bck-li-counter, lower-alpha) ")";
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    position: absolute;
+    color: inherit;
+    font-size: var(--TextoGeneral);
+    width: 28px;
+    margin-top: 0px;
+    left: -33px;
     top: 0px;
     margin-left: -1px;
     text-align: right;
