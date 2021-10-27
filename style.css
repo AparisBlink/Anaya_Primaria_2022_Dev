@@ -122,6 +122,7 @@
 	--colorppal: #FF6DAF;
 	--colortrans: #ff6daf54;
 	--colorsecundario: #D2FF51;
+	--colorsecundarioTexto: #aae500;
 	--colorsecundariotrans: #d2ff5180;
     --GrisAnaya: #898989;
 
@@ -752,11 +753,11 @@ p.bck-p-4 {
     font-weight: bold;
 }
 .bck-enfasis-6 {
-    color: #aae500;
+    color: var(--colorsecundarioTexto);
     font-weight: bold;
 }
 .bck-enfasis-7 {
-    border-bottom: 3px solid #aae500;
+    border-bottom: 3px solid var(--colorsecundarioTexto);
 }
 .bck-enfasis-8 {
     background-color: var(--colorsecundariotrans);
@@ -765,7 +766,7 @@ p.bck-p-4 {
 }
 .bck-enfasis-9 {
     font-family: 'PT Serif', serif;
-    color: #aae500;
+    color: var(--colorsecundarioTexto);
     font-weight: bold;
 }
 .bck-enfasis-10 {
@@ -1414,8 +1415,8 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 #actividad .content .texto_curso .bck-ul-4 li::before,
 #actividad .content .cke_contents .bck-ul-4 li::before,
  #actividad .content .workspace ul li .bck-ul-4 li::before {
-	background-color:var(--colorsecundario);
-	color: var(--colorsecundario);
+	background-color:var(--colorsecundarioTexto);
+	color: var(--colorsecundarioTexto);
 }
 /*Lista desordenada 5*/
 #actividad .content .texto_curso .bck-ul-5 li::before,
@@ -1665,7 +1666,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     position: absolute;
-    color: var(--colorsecundario);
+    color: var(--colorsecundarioTexto);
     font-size: var(--TextoGeneral);
     width: 28px;
     margin-top: 0px;
