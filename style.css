@@ -500,6 +500,19 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 	margin: 0 5px;
 	vertical-align: sub;
 }
+#actividad .player.audio {
+    background-image: url(images/icono_audio.png);
+    color: #fff;
+    background-color: transparent;
+    width: 30px !important;
+    height: 30px !important;
+    background-color: transparent;
+    vertical-align: bottom;
+    margin: 0 4px;
+}
+
+
+
 
 body #actividad a.bck-file-attach,
  body:not(.edit) #actividad a.bck-file-attach:not(.cke_button):not(.zoom_flag_img) {
@@ -1890,8 +1903,8 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
     background-position: 50%;
     display: inline-block;
     vertical-align: middle;
-    height: 24px;
-    width: 34px;
+    height: 30px;
+    width: 30px;
     margin: 0 4px;
 }
 
