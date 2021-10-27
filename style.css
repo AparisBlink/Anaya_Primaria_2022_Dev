@@ -1607,8 +1607,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     position: absolute;
-    background-color: var(--colorppal);
-    color: inherit;
+    color: var(--colorppal);
     font-size: var(--TextoGeneral);
     width: 28px;
     margin-top: 0px;
@@ -1635,8 +1634,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     position: absolute;
-    background-color: var(--colorsecundario);
-    color: inherit;
+    color: var(--colorsecundario);
     font-size: var(--TextoGeneral);
     width: 28px;
     margin-top: 0px;
