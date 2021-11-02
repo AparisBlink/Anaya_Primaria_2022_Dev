@@ -1734,7 +1734,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     border-bottom: 0;
     font-weight: bold;
     background-color: var(--colorppal);
-    padding: 15px 20px 15px 15px;
+    padding: 15px 20px 10px 15px;
 }
 .info-popover .popover-content, .popover-template .popover-content {
     display: block;
@@ -1854,9 +1854,11 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     background-color: var(--colorppal);
     border-bottom: 0;
     border-radius: 5px 5px 0 0;
+    color: #fff;
 }
 .popover-content {
     padding: 0px 14px 10px 14px;
+    color: #fff;
 }
 .popover.top>.arrow:after {
     border-top-color: var(--colorppal);
