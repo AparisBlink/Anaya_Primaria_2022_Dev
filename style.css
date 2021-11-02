@@ -1729,11 +1729,13 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     background-color: var(--colorppal);
     padding: 15px 20px 10px 15px;
 }
-.info-popover .popover-content, .popover-template .popover-content {
+.info-popover .popover-content,
+ .popover-template .popover-content {
     display: block;
     background: #fff;
     padding: 10px 15px;
     font-size: 16px;
+    color: #000;
 }
 .close-popover {
     color: #000;
@@ -1837,7 +1839,8 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     text-decoration: none;
     font-weight: bold;
 }
-.popover.top {
+.popover.top,
+ .popover.bottom {
     margin-top: -10px;
     background-color: var(--colorppal);
     font-size: 14px;
@@ -1859,7 +1862,8 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     padding: 0px 14px 10px 14px;
     color: #fff;
 }
-.popover.top>.arrow:after {
+.popover.top>.arrow:after,
+.popover.bottom>.arrow:after {
     border-top-color: var(--colorppal);
 }
 
