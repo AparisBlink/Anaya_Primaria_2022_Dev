@@ -479,13 +479,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 	background: transparent;
 }
 
-/*Icono audio*/
-#actividad .player.audio {
-	background-image: url(images/icono_audio.png);
-	color: #fff;
-    background-color: var(--colorppal) !important;
-}
-
 
 #actividad .content img.player,
 #actividad .player.audio,
