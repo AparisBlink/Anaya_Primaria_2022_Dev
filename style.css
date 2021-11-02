@@ -1758,7 +1758,8 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     border: 1px solid;
     border-radius: 50%;
     padding: 1px 6px;
-    background-color: white
+    background-color: white;
+    display: none;
 }
 
 #actividad .info-button {
