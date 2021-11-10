@@ -358,6 +358,10 @@ body {
 	font-size: var(--TextoGeneral);
 	line-height: var(--LineHeightGen) !important;
 }
+#actividad .slide_content_type_1 .pregunta .texto_curso {
+    font-size: var(--TextoGeneral);
+    line-height: var(--LineHeightGen) !important;
+}
 .texto_curso p {
 	line-height: var(--LineHeightGen) !important;
 	margin: 0 0 15px;
