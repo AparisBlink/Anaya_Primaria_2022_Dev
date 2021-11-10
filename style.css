@@ -1141,7 +1141,7 @@ body .bck-box .bck-title p {
   .body_clase #actividad .bck-dropdown .bck-dropdown-titulo {
     color: #000;
     cursor: pointer;
-    font-size: var(--TextoSecundario);
+    font-size: var(--TextoGeneral);
     font-weight: bold;
     padding-right: 40px;
   }
@@ -1178,11 +1178,11 @@ body .bck-box .bck-title p {
     background-color: #EFEFEF;
     margin-top: -15px;
     max-height: 600px;
-    font-size: 15px;
+    font-size: 18px;
     border-radius: 0 12px 12px 0;
 }
   .body_clase #actividad .bck-dropdown .bck-dropdown-content p {
-    line-height: 22px !important;
+    line-height: 25px !important;
 }
 
 /*Desplegable 1 (Igual que por defecto)*/
