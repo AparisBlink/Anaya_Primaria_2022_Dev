@@ -707,7 +707,7 @@ body:not(.edit) .bck-file-label:before {
 }
 .bck-title-10 {
     color: #000;
-    font-size: var(--TextoSecundario);
+    font-size: 22px;
     font-family: 'PT Serif', serif;
     font-weight: bold;
     margin: 15px 0 5px;
