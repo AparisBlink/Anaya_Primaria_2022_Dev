@@ -652,7 +652,7 @@ body:not(.edit) .bck-file-label:before {
     text-align: center;
 }
 .bck-title-6 {
-    background-color: #EBFFB2;
+    background-color: #FFDD00;
     color: #000;
     font-size: var(--TextoSecundario);
     font-weight: normal;
