@@ -731,6 +731,50 @@ body:not(.edit) .bck-file-label:before {
     font-weight: 500;
     margin: 20px 0 5px 0;
 }
+.bck-title-14 {
+    color: var(--colorppal);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    background-color: var(--colortrans);
+    padding: 10px 15px;
+    border: 2px solid var(--colorppal);
+    font-size: var(--TextoGeneral);
+    margin: 10px 0;
+}
+.bck-title-15 {
+    color: var(--colorppal);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 10px 15px;
+    border: 2px solid var(--colorppal);
+    font-size: var(--TextoGeneral);
+    margin: 10px 0;
+}
+.bck-title-16 {
+    color: #3CB5A0;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #E3F1ED;
+    padding: 10px 15px;
+    border: 2px solid #3CB5A0;
+    font-size: var(--TextoGeneral);
+    margin: 10px 0;
+}
+.bck-title-17 {
+    color: #3CB5A0;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 10px 15px;
+    border: 2px solid #3CB5A0;
+    font-size: var(--TextoGeneral);
+    margin: 10px 0;
+}
 /*Estilo de párrafo*/
 p.bck-p-1 {
     font-family: 'PT Serif', serif;
@@ -1879,9 +1923,11 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     padding: 0px 14px 10px 14px;
     color: #000;
 }
-.popover.top>.arrow:after,
+.popover.top>.arrow:after {
+    border-top-color: var(--colortrans); 
+}
 .popover.bottom>.arrow:after {
-    border-top-color: var(--colortrans);
+    border-bottom-color: var(--colortrans);
 }
 
 /*TABS*/
