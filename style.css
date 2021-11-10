@@ -719,6 +719,18 @@ body:not(.edit) .bck-file-label:before {
     font-weight: normal;
     margin: 20px 0 15px;
 }
+.bck-title-12 {
+    color: #3CB5A0;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0 15px 0;
+}
+.bck-title-13 {
+    color: #3CB5A0;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px 0 15px 0;
+}
 /*Estilo de párrafo*/
 p.bck-p-1 {
     font-family: 'PT Serif', serif;
