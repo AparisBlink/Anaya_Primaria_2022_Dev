@@ -1289,12 +1289,13 @@ body .bck-box .bck-title p {
     font-family: 'Sen', sans-serif;
     font-weight: normal;
     padding-right: 40px;
+    font-size: 24px;
 }
 .body_clase #actividad .bck-dropdown-4 .bck-dropdown-content {
     background-color: #fff;
     border: 1px solid #000;
     border-radius: 20px;
-    font-size: var(--TextoGeneral);
+    font-size: 24px;
 }
 .body_clase #actividad .bck-dropdown-4 .bck-dropdown-content p {
     line-height: var(--LineHeightGen) !important;
