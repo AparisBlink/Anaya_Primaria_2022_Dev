@@ -729,7 +729,7 @@ body:not(.edit) .bck-file-label:before {
     color: #3CB5A0;
     font-size: 30px;
     font-weight: 500;
-    margin: 20px 0 15px 0;
+    margin: 20px 0 5px 0;
 }
 /*Estilo de párrafo*/
 p.bck-p-1 {
@@ -1854,11 +1854,12 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 .bck-tooltip {
     text-decoration: none;
     font-weight: bold;
+    color: var(--colorppal);
 }
 .popover.top,
  .popover.bottom {
     margin-top: -10px;
-    background-color: var(--colorppal);
+    background-color: var(--colortrans);
     font-size: 14px;
     line-height: 19px;
     border: 0;
@@ -1869,18 +1870,18 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     font-size: 14px;
     font-weight: bold;
     line-height: 18px;
-    background-color: var(--colorppal);
+    background-color: var(--colortrans);
     border-bottom: 0;
     border-radius: 5px 5px 0 0;
-    color: #fff;
+    color: #000;
 }
 .popover-content {
     padding: 0px 14px 10px 14px;
-    color: #fff;
+    color: #000;
 }
 .popover.top>.arrow:after,
 .popover.bottom>.arrow:after {
-    border-top-color: var(--colorppal);
+    border-top-color: var(--colortrans);
 }
 
 /*TABS*/
