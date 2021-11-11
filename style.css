@@ -607,7 +607,7 @@ body:not(.edit) .bck-file-label:before {
         color: #000;
         font-size: 48px;
         font-weight: normal;
-        line-height: 3.0rem;
+        line-height: 5.0rem;
         margin: 30px 0 20px 0px;
         font-family: 'Love Ya Like A Sister';
 }
