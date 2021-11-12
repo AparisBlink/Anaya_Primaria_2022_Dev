@@ -710,7 +710,7 @@ body:not(.edit) .bck-file-label:before {
     font-size: 22px;
     font-family: 'PT Serif', serif;
     font-weight: bold;
-    margin: 15px 0 5px;
+    margin: 15px 0 20px;
 }
 .bck-title-11 {
     color: #000;
