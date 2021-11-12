@@ -671,20 +671,9 @@ body:not(.edit) .bck-file-label:before {
     text-align: center;
 }
 .bck-title-7 {
-    background-color: #fff;
-    color: #000;
     font-size: var(--TextoGeneral);
-    font-weight: normal;
-    border: 1px solid var(--colorppal);
-    border-radius: 30px;
-    padding: 7px 15px;
-    width: fit-content;
-    -webkit-width: fit-content;
-    width: -moz-fit-content;
-    font-family: 'Sen', sans-serif;
-    text-transform: uppercase;
-    margin: 20px 0 10px;
-    text-align: center;
+    font-weight: bold;
+    margin: 20px 0 15px;
 }
 .bck-title-8 {
     color: #000;
