@@ -1,7 +1,7 @@
 /* Fonts */
 @font-face {
-    font-family: 'Love Ya Like A Sister';
-    src: url('fonts/LoveYaLikeASister-Regular.woff') format('woff');
+    font-family: 'Chelsea Market';
+    src: url('fonts/ChelseaMarket-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -452,7 +452,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     font-size: 48px;
     border: 0;
     font-weight: normal;
-    font-family: 'Love Ya Like A Sister';
+    font-family: 'Chelsea Market';
 }
 #actividad .content .header .title h3::before{
 	content: '';
@@ -609,7 +609,7 @@ body:not(.edit) .bck-file-label:before {
         font-weight: normal;
         line-height: 5.0rem;
         margin: 30px 0 20px 0px;
-        font-family: 'Love Ya Like A Sister';
+        font-family: 'Chelsea Market';
 }
 .bck-title-2,
 .bck-title2 {
@@ -715,7 +715,7 @@ body:not(.edit) .bck-file-label:before {
 .bck-title-11 {
     color: #000;
     font-size: 36px;
-    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Chelsea Market', cursive;
     font-weight: normal;
     margin: 20px 0 15px;
 }
@@ -836,11 +836,11 @@ p.bck-p-4 {
     font-weight: bold;
 }
 .bck-enfasis-10 {
-    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Chelsea Market', cursive;
     font-size: 24px;
 }
 .bck-enfasis-11 {
-    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Chelsea Market', cursive;
     font-size: 36px;
 }
 
@@ -1025,7 +1025,7 @@ body .bck-box .bck-title p {
 .bck-box.bck-box-6 {
     padding: 0;
     border: 0;
-    font-family: 'Love Ya Like A Sister',cursive;
+    font-family: 'Chelsea Market',cursive;
 }
 .bck-box-6>.bck-title {
     font-size: 24px;
