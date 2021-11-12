@@ -1310,7 +1310,7 @@ body:not(.edit) .bck-flipbox-face.front {
 }
 body:not(.edit) .bck-flipbox-face.back {
     color: #595959;
-    border: 2px solid var(--colorsecundario);
+    border: 2px solid #6666;
     background: #FFF;
     border-radius: 10px;
     min-height: 100px;
@@ -1322,7 +1322,6 @@ body:not(.edit) .bck-flipbox-section {
 body:not(.edit) .front .bck-flipbox-title,
  body:not(.edit) .front .bck-flipbox-section {
     color: #fff;
-    border: 1px solid #fff;
     width: 100%;
     padding: 20px;
     font-weight: bold;
