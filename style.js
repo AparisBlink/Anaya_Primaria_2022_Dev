@@ -47,7 +47,6 @@
 				{ name: 'Pa.09', element: 'p', attributes: { 'class': 'bck-p-9'} },
 				
 
-
 				{ name: 'Énf.01 Color 1', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'Énf.02 Sub 1', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
 				{ name: 'Énf.03 Sombr 1', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
@@ -70,29 +69,6 @@
 				{ name: 'Énf.20', element: 'span', attributes: { 'class': 'bck-enfasis-20'} },
 				{ name: 'Énf.21', element: 'span', attributes: { 'class': 'bck-enfasis-21'} },
 				{ name: 'Énf.22', element: 'span', attributes: { 'class': 'bck-enfasis-22'} },
-
-				{ name: 'Énf.01 Color 1', element: 'p', attributes: { 'class': 'bck-enfasis-1'} },
-				{ name: 'Énf.02 Sub 1', element: 'p', attributes: { 'class': 'bck-enfasis-2'} },
-				{ name: 'Énf.03 Sombr 1', element: 'p', attributes: { 'class': 'bck-enfasis-3'} },
-				{ name: 'Énf.04 Serif', element: 'p', attributes: { 'class': 'bck-enfasis-4'} },
-				{ name: 'Énf.05 Serif 1', element: 'p', attributes: { 'class': 'bck-enfasis-5'} },
-				{ name: 'Énf.06 Color 2', element: 'p', attributes: { 'class': 'bck-enfasis-6'} },
-				{ name: 'Énf.07 Sub 2', element: 'p', attributes: { 'class': 'bck-enfasis-7'} },
-				{ name: 'Énf.08 Sombr 2', element: 'p', attributes: { 'class': 'bck-enfasis-8'} },
-				{ name: 'Énf.09 Serif 2', element: 'p', attributes: { 'class': 'bck-enfasis-9'} },
-				{ name: 'Énf.10', element: 'p', attributes: { 'class': 'bck-enfasis-10'} },
-				{ name: 'Énf.11', element: 'p', attributes: { 'class': 'bck-enfasis-11'} },
-				{ name: 'Énf.12', element: 'p', attributes: { 'class': 'bck-enfasis-12'} },
-				{ name: 'Énf.13', element: 'p', attributes: { 'class': 'bck-enfasis-13'} },
-				{ name: 'Énf.14', element: 'p', attributes: { 'class': 'bck-enfasis-14'} },
-				{ name: 'Énf.15', element: 'p', attributes: { 'class': 'bck-enfasis-15'} },
-				{ name: 'Énf.16', element: 'p', attributes: { 'class': 'bck-enfasis-16'} },
-				{ name: 'Énf.17', element: 'p', attributes: { 'class': 'bck-enfasis-17'} },
-				{ name: 'Énf.18', element: 'p', attributes: { 'class': 'bck-enfasis-18'} },
-				{ name: 'Énf.19', element: 'p', attributes: { 'class': 'bck-enfasis-19'} },
-				{ name: 'Énf.20', element: 'p', attributes: { 'class': 'bck-enfasis-20'} },
-				{ name: 'Énf.21', element: 'p', attributes: { 'class': 'bck-enfasis-21'} },
-				{ name: 'Énf.22', element: 'p', attributes: { 'class': 'bck-enfasis-22'} },
 
 				{ name: 'L.01.123 Punto', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
 				{ name: 'L.02.abc Paréntesis', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
