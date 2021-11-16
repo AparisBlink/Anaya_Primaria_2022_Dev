@@ -671,6 +671,7 @@ body:not(.edit) .bck-file-label:before {
     text-align: center;
 }
 .bck-title-7 {
+    color: var(--colorppal);
     font-size: var(--TextoGeneral);
     font-weight: bold;
     margin: 20px 0 15px;
