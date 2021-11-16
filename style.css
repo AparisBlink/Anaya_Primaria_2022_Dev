@@ -609,7 +609,7 @@ body:not(.edit) .bck-file-label:before {
         font-weight: normal;
         line-height: 5.0rem;
         margin: 30px 0 20px 0px;
-        font-family: 'Chelsea Market';
+        font-family: 'Chelsea Market', cursive;
 }
 .bck-title-2,
 .bck-title2 {
@@ -763,6 +763,13 @@ body:not(.edit) .bck-file-label:before {
     border: 2px solid #3CB5A0;
     font-size: var(--TextoGeneral);
     margin: 10px 0;
+}
+.bck-title-18 {
+    font-family: 'Chelsea Market', cursive;
+    color: #000;
+    text-align: center;
+    font-size: 42px;
+    margin: 30px 0 20px 0px;
 }
 /*Estilo de párrafo*/
 p.bck-p-1 {
