@@ -835,7 +835,12 @@ p.bck-p-4 {
 .bck-enfasis-10 {
     font-family: 'Chelsea Market', cursive;
 }
-
+.bck-enfasis-11 {
+    font-family: 'Chelsea Market', cursive;
+    color: var(--colorppal);
+    font-size: 85px;
+    line-height: 80px;
+}
 
 /* ---- CAJAS ---*/
 .bck-box {
