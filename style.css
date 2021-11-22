@@ -1168,6 +1168,10 @@ body .bck-box .bck-title p {
     padding: 0;
     font-size: 18px;
   }
+
+  .bck-dropdown-titulo {
+      padding-left: 0;
+  }
   
   .body_clase #actividad .bck-dropdown .bck-dropdown-content {
     width: 100%;
@@ -1205,6 +1209,7 @@ body .bck-box .bck-title p {
 .body_clase #actividad .bck-dropdown.bck-dropdown-2 .bck-dropdown-button {
     background-color: #C7C5C5;
 }
+
 
 /*Desplegable 3*/
 .body_clase #actividad .bck-dropdown-3 {
@@ -1294,6 +1299,33 @@ body .bck-box .bck-title p {
 .body_clase #actividad .bck-dropdown-4 .bck-dropdown-content p {
     line-height: var(--LineHeightGen) !important;
 }
+
+/*Desplegable 5*/
+.body_clase #actividad .bck-dropdown-5 .bck-dropdown-button {
+    border-radius: 30px;
+    min-width: 300px;
+    padding: 5px;
+}
+.body_clase #actividad .bck-dropdown-5 .bck-dropdown-icon {
+    color: #fff;
+}
+.body_clase #actividad .bck-dropdown-5 .bck-dropdown-icon>.fa {
+    color: #fff;
+}
+.body_clase #actividad .bck-dropdown-5 .bck-dropdown-titulo {
+    color: #fff;
+    font-weight: normal;
+    padding-right: 40px;
+}
+.body_clase #actividad .bck-dropdown-5 .bck-dropdown-content {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+.body_clase #actividad .bck-dropdown-5 .bck-dropdown-content p {
+    line-height: var(--LineHeightGen) !important;
+}
+
 
 
 
