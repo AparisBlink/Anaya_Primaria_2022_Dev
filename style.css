@@ -1278,7 +1278,7 @@ body .bck-box .bck-title p {
 .body_clase #actividad .bck-dropdown-4 .bck-dropdown-button {
     border-radius: 30px;
     min-width: 300px;
-    padding: 5px;
+    padding: 5px 20px;
 }
 .body_clase #actividad .bck-dropdown-4 .bck-dropdown-icon {
     color: #fff;
@@ -1302,9 +1302,11 @@ body .bck-box .bck-title p {
 
 /*Desplegable 5*/
 .body_clase #actividad .bck-dropdown-5 .bck-dropdown-button {
-    border-radius: 30px;
-    min-width: 300px;
-    padding: 5px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 .body_clase #actividad .bck-dropdown-5 .bck-dropdown-icon {
     color: #fff;
@@ -1314,16 +1316,51 @@ body .bck-box .bck-title p {
 }
 .body_clase #actividad .bck-dropdown-5 .bck-dropdown-titulo {
     color: #fff;
-    font-weight: normal;
+    font-weight: bold;
     padding-right: 40px;
 }
 .body_clase #actividad .bck-dropdown-5 .bck-dropdown-content {
     background-color: #fff;
     border: 1px solid #000;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin-top: 0;
+    padding: 10px 20px;
+    font-size: var(--TextoSecundario);
 }
 .body_clase #actividad .bck-dropdown-5 .bck-dropdown-content p {
-    line-height: var(--LineHeightGen) !important;
+    line-height: var(--LineHeightSecundario) !important;
+}
+
+/*Desplegable 6*/
+.body_clase #actividad .bck-dropdown-6 .bck-dropdown-button {
+    border-radius: 10px;
+    padding: 15px 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #3CB5A0;
+}
+.body_clase #actividad .bck-dropdown-6 .bck-dropdown-icon {
+    color: #fff;
+}
+.body_clase #actividad .bck-dropdown-6 .bck-dropdown-icon>.fa {
+    color: #fff;
+}
+.body_clase #actividad .bck-dropdown-6 .bck-dropdown-titulo {
+    color: #fff;
+    font-weight: bold;
+    padding-right: 40px;
+}
+.body_clase #actividad .bck-dropdown-6 .bck-dropdown-content {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-top: 0;
+    padding: 10px 20px;
+    font-size: var(--TextoSecundario);
+}
+.body_clase #actividad .bck-dropdown-6 .bck-dropdown-content p {
+    line-height: var(--LineHeightSecundario) !important;
 }
 
 
