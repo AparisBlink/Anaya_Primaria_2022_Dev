@@ -1144,7 +1144,7 @@ body .bck-box .bck-title p {
   }
   
   .body_clase #actividad .bck-dropdown .bck-dropdown-button {
-    padding: 10px;
+    padding: 10px 20px;
     border: 0;
     position: relative;
     cursor: pointer;
@@ -1218,7 +1218,7 @@ body .bck-box .bck-title p {
 .body_clase #actividad .bck-dropdown-3 .bck-dropdown-button {
     background-color: #3cb5a0;
     font-size: var(--TextoSecundario);
-    padding: 0px 15px 0 18px;
+    padding: 0px 15px 0 25px;
     border-radius: 30px;
 }
 .body_clase #actividad .bck-dropdown-3 .bck-dropdown-titulo {
