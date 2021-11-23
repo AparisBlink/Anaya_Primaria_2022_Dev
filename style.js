@@ -58,7 +58,7 @@
 				{ name: 'Énf.09 Serif 2', element: 'span', attributes: { 'class': 'bck-enfasis-9'} },
 				{ name: 'Énf.10', element: 'span', attributes: { 'class': 'bck-enfasis-10'} },
 				{ name: 'Énf.11', element: 'span', attributes: { 'class': 'bck-enfasis-11'} },
-				{ name: 'Énf.12', element: 'span', attributes: { 'class': 'bck-enfasis-12'} },
+				{ name: 'Énf.12 Color ODS', element: 'span', attributes: { 'class': 'bck-enfasis-12'} },
 				{ name: 'Énf.13', element: 'span', attributes: { 'class': 'bck-enfasis-13'} },
 				{ name: 'Énf.14', element: 'span', attributes: { 'class': 'bck-enfasis-14'} },
 				{ name: 'Énf.15', element: 'span', attributes: { 'class': 'bck-enfasis-15'} },
