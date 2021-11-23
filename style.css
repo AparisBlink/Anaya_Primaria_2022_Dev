@@ -841,6 +841,10 @@ p.bck-p-4 {
     font-size: 85px;
     line-height: 80px;
 }
+.bck-enfasis-12 {
+    color: #3CB5A0;
+    font-weight: bold;
+}
 
 /* ---- CAJAS ---*/
 .bck-box {
