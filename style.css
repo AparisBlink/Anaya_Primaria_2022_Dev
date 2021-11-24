@@ -352,7 +352,7 @@ body {
 }
 
 .texto_curso p:last-of-type {
-    margin-bottom: 0;
+    margin-bottom: 15px;
 }
 #actividad .texto_curso {
 	font-size: var(--TextoGeneral);
@@ -409,9 +409,11 @@ body {
      max-width: 1900px;
 }
     /*Margin Bottom al grid para respetar el margin-bottom de los párrafos*/
+    /*
     .bck-row {
         margin-bottom: 15px;
     }
+    */
 
 
 /*Input Blanco*/
