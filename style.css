@@ -1138,7 +1138,7 @@ body .bck-box .bck-title p {
 /*---*/
 /* Content: Dropdown box */
 .body_clase #actividad .bck-dropdown {
-    margin: 15px 0;
+    margin: 20px 0;
   }
   
   .body_clase #actividad .bck-dropdown .bck-dropdown-titulo {
@@ -1190,6 +1190,10 @@ body .bck-box .bck-title p {
 }
   .body_clase #actividad .bck-dropdown .bck-dropdown-content p {
     line-height: 25px !important;
+}
+
+.bck-dropdown p:last-of-type {
+    margin-bottom: 0;
 }
 
 /*Desplegable 1 (Igual que por defecto)*/
@@ -2543,6 +2547,7 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 table,
 .bck-table {
 	border: 1px solid #000;
+    margin: 15px 0 15px;
 }
 
 table td,
