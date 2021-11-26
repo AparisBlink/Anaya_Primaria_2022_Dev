@@ -777,6 +777,22 @@ body:not(.edit) .bck-file-label:before {
     font-size: 42px;
     margin: 30px 0 20px 0px;
 }
+.bck-title-19 {
+    font-size: var(--TextoGeneral);
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--colorppal);
+    padding: 10px;
+    margin: 0;
+    min-height: 40px;
+    min-width: 40px;
+    width: fit-content;
+    width: -moz-fit-content;
+    border-radius: 50%;
+    display: block; 
+}
 /*Estilo de párrafo*/
 .bck-p-1 {
     font-family: 'PT Serif', serif;
