@@ -40,7 +40,7 @@
 				{ name: 'Pa.02 Cita 1', element: 'p', attributes: { 'class': 'bck-p-2'} },
 				{ name: 'Pa.03 Cita 2', element: 'p', attributes: { 'class': 'bck-p-3'} },
 				{ name: 'Pa.04 Cita 3', element: 'p', attributes: { 'class': 'bck-p-4'} },
-				{ name: 'Pa.05', element: 'p', attributes: { 'class': 'bck-p-5'} },
+				{ name: 'Pa.05 Centrado', element: 'p', attributes: { 'class': 'bck-p-5'} },
 				{ name: 'Pa.06', element: 'p', attributes: { 'class': 'bck-p-6'} },
 				{ name: 'Pa.07', element: 'p', attributes: { 'class': 'bck-p-7'} },
 				{ name: 'Pa.08', element: 'p', attributes: { 'class': 'bck-p-8'} },
