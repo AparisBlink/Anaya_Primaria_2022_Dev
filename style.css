@@ -443,6 +443,9 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 
 /* Titulo de la slide */
+body:not(.edit) #actividad .content .header {
+    display: none;
+}
 #actividad .content .header .title {
     margin-bottom: 0px;
 }
