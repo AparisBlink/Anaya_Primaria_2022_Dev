@@ -778,24 +778,27 @@ body:not(.edit) .bck-file-label:before {
     margin: 30px 0 20px 0px;
 }
 /*Estilo de párrafo*/
-p.bck-p-1 {
+.bck-p-1 {
     font-family: 'PT Serif', serif;
     text-align: right;
     font-size: var(--TextoSecundario);
     line-height: var(--LineHeightSecundario) !important;
 }
-p.bck-p-2 {
+.bck-p-2 {
     font-family: 'PT Serif',serif;
 }
-p.bck-p-3 {
+.bck-p-3 {
     font-family: 'PT Serif';
     border-left: 2px solid var(--colorppal);
     padding-left: 10px;
 }
-p.bck-p-4 {
+.bck-p-4 {
     font-family: 'PT Serif', serif;
     border-left: 2px dashed var(--colorppal);
     padding-inline-start: 10px;
+}
+.bck-p-5 {
+    text-align: center;
 }
 
 
