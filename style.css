@@ -870,6 +870,16 @@ body:not(.edit) .bck-file-label:before {
     color: #3CB5A0;
     font-weight: bold;
 }
+.bck-enfasis-13 {
+    color: #FFDD00;
+    font-weight: bold;
+}
+.bck-enfasis-14 {
+    background-color: #ffee80;
+    padding: 2px 7px;
+    border-radius: 3px;
+}
+
 
 /* ---- CAJAS ---*/
 .bck-box {
