@@ -480,12 +480,13 @@ body:not(.edit) #actividad .content .header {
 }
 
 .bck-i-fullscreen figcaption {
-	margin-top: -20px;
+	margin-top: -10px;
 	border-bottom: 0;
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
 	background: transparent;
+    line-height: 19px;
 }
 
 
