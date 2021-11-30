@@ -1157,6 +1157,16 @@ body .bck-box .bck-title p {
     border-radius: 30px;
 }
 
+/*CAJA 15*/
+.bck-box.bck-box-15.center {
+    background-color: #FFEE80;
+    text-align: center;
+    border: 0;
+    -webkit-box-shadow: 0px 5px 5px #00000042;
+    -moz-box-shadow: 0px 5px 5px #00000042;
+    box-shadow: 0px 5px 5px #00000042;
+}
+
 /*Desplegables*/
 /*---*/
 /* Content: Dropdown box */
