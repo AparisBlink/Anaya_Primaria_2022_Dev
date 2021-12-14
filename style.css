@@ -2490,8 +2490,10 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 .deliverablefile .divtitle .title-deliverablefile {
     text-align: center;
 }
-.deliverablefile .divtable td.name {
-    padding: 10px;
+.deliverablefile .divtable .table {
+    table-layout: auto;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 
