@@ -642,7 +642,7 @@ body:not(.edit) .bck-file-label:before {
     width: -moz-fit-content;
     font-family: 'Sen', sans-serif;
     text-transform: uppercase;
-    margin: 20px 0 10px;
+    margin: 20px auto 10px;
     text-align: center;
 }
 .bck-title-5 {
@@ -657,7 +657,7 @@ body:not(.edit) .bck-file-label:before {
     width: -moz-fit-content;
     font-family: 'Sen', sans-serif;
     text-transform: uppercase;
-    margin: 20px 0 10px;
+    margin: 20px auto 10px;
     text-align: center;
 }
 .bck-title-6 {
@@ -672,7 +672,7 @@ body:not(.edit) .bck-file-label:before {
     width: -moz-fit-content;
     font-family: 'Sen', sans-serif;
     text-transform: uppercase;
-    margin: 20px 0 10px;
+    margin: 20px auto 10px;
     text-align: center;
 }
 .bck-title-7 {
