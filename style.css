@@ -2480,6 +2480,17 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 	font-size: 1.5rem;
 }
 
+/*Adjuntar archivos*/
+.no-files {
+    font-size: var(--TextoGeneral);
+}
+.deliverablefile .divbuttons .row {
+    text-align: center;
+}
+.deliverablefile .divtitle .title-deliverablefile {
+    text-align: center;
+}
+
 
 /*botonera general*/
 #actividad .class_slide .review {
