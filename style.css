@@ -2490,6 +2490,9 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 .deliverablefile .divtitle .title-deliverablefile {
     text-align: center;
 }
+.deliverablefile .divtable td.name {
+    padding: 10px;
+}
 
 
 /*botonera general*/
