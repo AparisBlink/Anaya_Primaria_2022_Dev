@@ -1507,7 +1507,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     position: relative;
     margin-bottom: 10px;
     margin-left: 0;
-    font-size: var(--TextoGeneral);
+    font-size: inherit;
     line-height: var(--LineHeightGen) !important;
 }
 /*---*/
@@ -1531,7 +1531,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 	padding-left: 20px;
 }
 #actividad .content ul.bck-ul li {
-    font-size: var(--TextoGeneral);
+    font-size: inherit;
 }
 .texto_curso ul li:before,
 .workspace ul li ul li:before,
@@ -1638,7 +1638,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     list-style-type: none;
     counter-increment: bck-li-counter 1;
     position: relative;
-    font-size: var(--TextoGeneral);
+    font-size: inherit;
 }
 
 #actividad .content .texto_curso .bck-ol li:before,
