@@ -64,7 +64,7 @@
 				{ name: 'Énf.15', element: 'span', attributes: { 'class': 'bck-enfasis-15'} },
 				{ name: 'Énf.16', element: 'span', attributes: { 'class': 'bck-enfasis-16'} },
 				{ name: 'Énf.17', element: 'span', attributes: { 'class': 'bck-enfasis-17'} },
-				{ name: 'Énf.18', element: ' span', attributes: { 'class': 'bck-enfasis-18'} },
+				{ name: 'Énf.18', element: 'span', attributes: { 'class': 'bck-enfasis-18'} },
 				{ name: 'Énf.19', element: 'span', attributes: { 'class': 'bck-enfasis-19'} },
 				{ name: 'Énf.20', element: 'span', attributes: { 'class': 'bck-enfasis-20'} },
 				{ name: 'Énf.21', element: 'span', attributes: { 'class': 'bck-enfasis-21'} },
