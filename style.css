@@ -878,7 +878,37 @@ body:not(.edit) .bck-file-label:before {
     padding: 2px 7px;
     border-radius: 3px;
 }
-
+.bck-enfasis-15 {
+    color: #898989;
+    font-weight: bold;
+}
+.bck-enfasis-16 {
+    font-weight: bold;
+}
+.bck-enfasis-17 {
+    color: #f7941d;
+    font-weight: bold;
+}
+.bck-enfasis-18 {
+    color: #0071bb;
+    font-weight: bold;
+}
+.bck-enfasis-19 {
+    color: #00a651;
+    font-weight: bold;
+}
+.bck-enfasis-20 {
+    color: #BF814C;
+    font-weight: bold;
+}
+.bck-enfasis-21 {
+    color: #ea1d39;
+    font-weight: bold;
+}
+.bck-enfasis-22 {
+    color: #aa4086;
+    font-weight: bold;
+}
 
 /* ---- CAJAS ---*/
 .bck-box {
