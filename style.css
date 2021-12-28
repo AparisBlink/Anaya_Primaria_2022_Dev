@@ -2257,12 +2257,15 @@ hr {
 }
 
 /*Respuesta múltiple*/
+
 #actividad .workspace.multiple-choice .opcion {
     border-radius: 5px;
     -moz-box-shadow: 0px 4px 5px #00000021;
     -webkit-box-shadow: 0px 4px 5px #00000021;
     box-shadow: 0px 4px 5px #00000021;
     border: 1px solid var(--colorppal);
+    margin: 0 auto 10px;
+    max-width: 90%;
 }
 #actividad .workspace.multiple-choice .opcion figure {
     margin: 0 55px;
@@ -2356,6 +2359,13 @@ hr {
     border: 1px solid var(--colorppal);	
 }
 /*Verdadero y falso*/
+#actividad .workspace.true-false li {
+    max-width: 90%;
+    margin: 0 auto 20px;
+}
+#actividad .workspace.true-false .tf-option {
+    margin-left: 15%;    
+}
 
 /*Fill in the blanks*/
 .fillblanks-draggable-wrapper {
@@ -2561,6 +2571,13 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 }
 #actividad .workspace.syntax .sintaxis_adder .select.filled {
     border: 1px solid #00bdff;
+}
+/*Velocidad de lectura*/
+.workspace.reading .value {
+    color: var(--colorppal);
+}
+.workspace.reading .linea_separadora {
+    background-color: #898989;
 }
 
 
