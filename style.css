@@ -391,15 +391,14 @@ body {
 /*MODIFICACIONES MARGENES SLIDES Y AJUSTE IMAGENES AUXILIARES*/
 #actividad .carousel-inner .item-container {
     background-image: none;
-    padding: 0px;
-    padding-bottom: 90px;
+    padding: 0px 0 90px;
     position: relative;
-    -moz-box-shadow: inset 0px 4px 4px #c8c8c8;
-    -webkit-box-shadow: inset 0px 4px 4px #c8c8c8;
-    box-shadow: inset 0px 4px 4px #c8c8c8;
-    margin-top: -5px;
-    margin-bottom: 0;
-    margin: -5px auto 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow:none;
+    border-left: 2px solid #EAEAEA;
+    border-right: 2px solid #EAEAEA;
+    margin: 0 auto 0;
     width: 95%;
     max-width: 1400px;
 }
