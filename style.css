@@ -122,6 +122,8 @@
 	--colorppal: #FF6DAF;
 	--colortrans: #FFCFE5;
 	--colorsecundario: #D2FF51;
+    /*--colorsecundarioTexto: Es una variación de colorsecundaria porque, aplicado sobre el color de un texto, tenía muy poca 
+    legibilidad*/
 	--colorsecundarioTexto: #aae500;
 	--colorsecundariotrans: #E8FFA8;
     --GrisAnaya: #898989;
@@ -965,7 +967,7 @@ body .bck-box .bck-title p {
         border: 0;
 }
 .bck-box.bck-box-1>.bck-title {
-        background-color: #D2FF51;
+        background-color: var(--colorsecundario);
         font-weight: bold;
         font-size: var(--TextoGeneral);
         color: #000;
@@ -1190,7 +1192,7 @@ body .bck-box .bck-title p {
 
 /*CAJA 14*/
 .bck-box-14 {
-    background-color: #D2FF51;
+    background-color: var(--colorsecundario);
     border: 0;
     border-radius: 30px;
 }
@@ -2677,13 +2679,13 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 .btn-solution,
 .btn-solution.disabled,
 .btn-solution[disabled] {
-    color: #005472;
-    background-color: #fff;
-    border: 2px solid #00bdff;
+    color: #002937;
+    background-color: #b6ecff;
+    border: 0;
     border-radius: 5px;
     font-weight: 700;
     font-size: 16px;
-    padding: 8px 15px;
+    padding: 10px 15px;
 }
 .btn-next:active,
 .btn-next:focus,
