@@ -2606,7 +2606,7 @@ body #actividad .workspace.chooseblanks .inline-answer a {
     border-bottom: 0;
 }
 .deliverablefile .divtitle {
-    border-top: 0;
+    border-bottom: 0;
 }
 .deliverablefile .divtitle .title-deliverablefile {
     text-align: center;
