@@ -2551,9 +2551,13 @@ body #actividad .workspace.chooseblanks .inline-answer a {
     background-color: #e7ffd1;
     border-bottom: 2px solid #74d320;
 }
-/*parejas cartas*/
+/*Memoria*/
 #actividad .workspace.memory .flip-container p {
 	font-size: 1.5rem;
+}
+#actividad .workspace.memory .front {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
 }
 /*Dibujo*/
 .slide_content_type_35 .tools .active,
