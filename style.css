@@ -380,14 +380,15 @@ body {
 }
 
 /*Ajuste de los espacios en la slide concatenada*/
-#actividad .slide-concatenate .class_slide.slide_content_type_24,
-#actividad .slide-concatenate .class_slide.slide_content_type_1 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-#actividad .slide-concatenate .class_slide {
+
+#actividad .carousel-inner .slide-concatenate .class_slide {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+#actividad .carousel-inner .slide-concatenate .class_slide.slide_content_type_24,
+#actividad .carousel-inner .slide-concatenate .class_slide.slide_content_type_1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /*MODIFICACIONES MARGENES SLIDES Y AJUSTE IMAGENES AUXILIARES*/
@@ -2819,26 +2820,31 @@ body:not(.edit) #actividad .carousel-inner .fondotransparente .item-container.au
 and (max-width : 480px) {
 
 :root {
---TextoGeneral: 18px;
---LineHeightGen: 25px;
+--TextoGeneral: 17px;
+--LineHeightGen: 24px;
 --TextoSecundario: 16px;
 --LineHeightSecundario: 22px;
 }  
-#actividad .content .header .title h3 {
-    font-size: 40px;
-} 
-.bck-title-1 {
-    font-size: 40px;
+.texto_curso p {
+    line-height: var(--LineHeightGen);
 }
-.bck-title-2{
-    font-size: 30px;
+#actividad .content .header .title h3 {
+    font-size: 35px;
 } 
-.bck-title-3 {
+.bck-title-1,
+.bck-title-18 {
+    font-size: 35px;
+}
+.bck-title-2,
+.bck-title-12 {
+    font-size: 27px;
+} 
+.bck-title-3,
+.bck-title-13 {
     font-size: 24px;
 }
-
-.texto_curso p {
-    line-height: 2.8rem !important;
+.bck-tile-11 {
+    font-size: 25px;
 }
 #actividad .texto_curso {
     font-size: var(--TextoGeneral);
@@ -2861,6 +2867,6 @@ and (max-width : 480px) {
     height: auto;
 }	
 #actividad .workspace.test .respuestas li {
-    width: 70%;
+    width: 90%;
 }	
 }
