@@ -2603,6 +2603,10 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 }
 .deliverablefile .divbuttons .row {
     text-align: center;
+    border-bottom: 0;
+}
+.deliverablefile .divtitle {
+    border-top: 0;
 }
 .deliverablefile .divtitle .title-deliverablefile {
     text-align: center;
@@ -2620,7 +2624,6 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 .deliverablefile .divtable {
     margin-top: 20px;
 }
-
 
 /*botonera general*/
 #actividad .class_slide .review {
