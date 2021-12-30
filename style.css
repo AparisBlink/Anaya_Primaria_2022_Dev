@@ -2841,24 +2841,24 @@ and (max-width : 480px) {
 .texto_curso p {
     line-height: var(--LineHeightGen);
 }
-#actividad .content .header .title h3 {
-    font-size: 35px;
-} 
+/*42px pasan a 35px*/
+#actividad .content .header .title h3,
 .bck-title-1,
 .bck-title-18 {
     font-size: 35px;
 }
+/*36px pasan a 27px*/
 .bck-title-2,
 .bck-title-12 {
     font-size: 27px;
 } 
+/*30px pasan a 24px*/
 .bck-title-3,
-.bck-title-13 {
+.bck-title-13,
+.bck-tile-11 {
     font-size: 24px;
 }
-.bck-tile-11 {
-    font-size: 25px;
-}
+
 #actividad .texto_curso {
     font-size: var(--TextoGeneral);
     line-height: var(--LineHeightGen) !important;
