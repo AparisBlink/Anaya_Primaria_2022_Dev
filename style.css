@@ -2936,6 +2936,12 @@ body:not(.edit) #actividad .carousel-inner .fondotransparente .item-container.au
 }
 }
 
+@media (max-width: 767px){
+.body_clase #actividad .carousel-inner .item-container {
+    margin-top: 0;
+}
+}
+
 @media (max-width: 579px) {
 .body_clase #actividad .carousel-inner .item-container {
     margin-top: 0;
