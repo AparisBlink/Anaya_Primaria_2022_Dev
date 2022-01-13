@@ -361,6 +361,9 @@ body {
 	font-size: var(--TextoGeneral);
 	line-height: var(--LineHeightGen) !important;
 }
+#actividad .workspace {
+    font-size: var(--TextoGeneral);
+}
 #actividad .slide_content_type_1 .pregunta .texto_curso {
     font-size: var(--TextoGeneral);
     line-height: var(--LineHeightGen) !important;
