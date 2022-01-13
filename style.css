@@ -505,15 +505,16 @@ body:not(.edit) #actividad .content .header {
 	margin: 0 5px;
 	vertical-align: sub;
 }
-#actividad .player.audio {
-    background-image: url(images/icono_audio.png);
+#actividad a,
+ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) #actividad a.player.audio,
+  body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img).player.audio {
+    background-image: url(images/icon_audio.png);
     color: #fff;
-    background-color: transparent;
     width: 30px !important;
     height: 30px !important;
-    background-color: transparent;
     vertical-align: bottom;
     margin: 0 4px;
+    background-color: var(--colorppal);
 }
 
 
@@ -588,22 +589,23 @@ body:not(.edit) .bck-file-label:before {
 .bck-file-label {
     position: relative;
     background-color: #fff;
-    box-shadow: 0px 5px 10px #0000004d;
-    padding: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 .bck-file-label:before {
     content: "";
-    background-image: url(images/Icono_adjuntos.png);
+    background-image: url(images/icon_adjunto.png);
     position: relative;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 50px;
     display: block;
-    margin: 0 auto;
-    margin-bottom: 5px;
+    margin: 0 auto 5px;
+    background-color: var(--colorppal);
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
 }
-
 /* TÍTULOS */
 
 /*-- Título 1 --*/
@@ -1948,7 +1950,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 .popover-template .popover-title {
     position: relative;
     background: none;
-    font-size: var(--TextoGeneral);
+    font-size: 18px;
     color: var(--TextoSobreFondoPpal);
     border-bottom: 0;
     font-weight: bold;
@@ -1959,8 +1961,9 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
  .popover-template .popover-content {
     display: block;
     background: #fff;
-    padding: 10px 15px;
+    padding: 10px 15px 15px 15px;
     color: #000;
+    font-size: 18px;
 }
 .info-popover .close-popover,
 .popover-template .close-popover {
@@ -2010,29 +2013,12 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 
 /*Pop-up flotante*/
 .info-template {
-	position: fixed;
-	top: 100px;
-	right: 0;
-	-webkit-transform: translateX(105%);
-	-moz-transform: translateX(105%);
-	-ms-transform: translateX(105%);
-	-o-transform: translateX(105%);
-	transform: translateX(105%);
-	z-index: 1000;
-	width: 135px;
-	height: auto;
 	-webkit-box-shadow: 0 0 2px #555;
 	-moz-box-shadow: 0 0 2px #555;
 	box-shadow: 0 0 2px #555;
-	-webkit-border-radius: 5px 0 0 5px;
-	-moz-border-radius: 5px 0 0 5px;
-	border-radius: 5px 0 0 5px;
-	background: #fff;
-	padding: 15px 5px 0;
-	-webkit-transition: all ease-in-out .5s;
-	-o-transition: all ease-in-out .5s;
-	-moz-transition: all ease-in-out .5s;
-	transition: all ease-in-out .5s;
+	border-radius: 10px 0 0 10px;
+	background: var(--colorppal);
+	padding: 20px 5px 0;
 }
 .info-template.shown {
     background: var(--colorppal);
