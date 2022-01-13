@@ -2551,9 +2551,6 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 
 /*tipo test*/
 
-
-
-
 #actividad .workspace.test .respuesta_ko {
     background-color: #ffe1e4;
     border-bottom: 2px solid #ef0c24;
@@ -2562,6 +2559,7 @@ body #actividad .workspace.chooseblanks .inline-answer a {
     background-color: #e7ffd1;
     border-bottom: 2px solid #74d320;
 }
+
 /*Memoria*/
 #actividad .workspace.memory .flip-container p {
 	font-size: 1.5rem;
@@ -2972,7 +2970,6 @@ body:not(.edit) #actividad .carousel-inner .fondotransparente .item-container.au
 }
 
 @media only screen and (max-width : 480px) {
-
 :root {
 --TextoGeneral: 17px;
 --LineHeightGen: 24px;
@@ -3026,6 +3023,11 @@ body:not(.edit) #actividad .carousel-inner .fondotransparente .item-container.au
 #actividad .workspace.test .respuestas li {
     width: 90%;
 }	
+}
+@media only screen and (max-width : 330px) { 
+    .btn {
+        margin: 5px 0;
+    }
 }
 
 /*PROVIONAL -- ELIMINAR AL SUBIR A PRODUCCION*/
