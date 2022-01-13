@@ -3026,3 +3026,110 @@ body:not(.edit) #actividad .carousel-inner .fondotransparente .item-container.au
 }	
 }
 
+/*PROVIONAL -- ELIMINAR AL SUBIR A PRODUCCION*/
+.unittag_barcanova {
+    --colorppal: #C24735;
+	--colortrans: #F4D9D5;
+	--colorsecundario: #D2FF51;
+	--colorsecundarioTexto: #aae500;
+	--colorsecundariotrans: #E8FFA8;
+    --TextoSobreFondoPpal: #FFF;
+    --TextoSobreFondoSec: #000;
+}
+.unittag_barcanova #actividad .carousel-inner .item-container {
+    padding-top: 20px;
+}
+.unittag_barcanova .item-container:before {
+    content: "";
+    background-image: url(images/cab_barpr_leng.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    display: block;
+    width: 65%;
+    height: 70px;
+    margin-left: -1px;
+    max-width: 910px;
+}
+.unittag_barcanova .item-container:after {
+    content: "";
+    background-image: url(images/logo_Barcanova.png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 60px;
+}
+
+/*Lengua castellana*/
+.unittag_barcanova_cas {
+    --colorppal: #ab0047;
+	--colortrans: #e2a7a0;
+	--colorsecundario: #75b73f;
+	--colorsecundarioTexto: #75b73f;
+	--colorsecundariotrans: #C7E2B2;
+    --TextoSobreFondoPpal: #FFF;
+    --TextoSobreFondoSec: #FFF;
+}
+.unittag_barcanova_cas .item-container:before {
+    background-image: url(images/cab_barpr_leng.png);
+}
+
+/*Coneixement del medi social*/
+.unittag_barcanova_cms {
+    --colorppal: #d58646;
+	--colortrans: #E5B690;
+	--colorsecundario: #AACE36;
+	--colorsecundarioTexto: #AACE36;
+	--colorsecundariotrans: #D4E69A;
+    --TextoSobreFondoPpal: #FFF;
+    --TextoSobreFondoSec: #000;
+}
+.unittag_barcanova_cms .item-container:before {
+    background-image: url(images/cab_barpr_bg.png);
+}
+
+/*Matemàtiques*/
+.unittag_barcanova_mat {
+    --colorppal: #4275A5;
+	--colortrans: #A0BAD2;
+	--colorsecundario: #AACE36;
+	--colorsecundarioTexto: #AACE36;
+	--colorsecundariotrans: #D4E69A;
+    --TextoSobreFondoPpal: #FFF;
+    --TextoSobreFondoSec: #000;
+}
+.unittag_barcanova_mat .item-container:before {
+    background-image: url(images/cab_barpr_mat.png);
+}
+
+/*Lengua catalana*/
+.unittag_barcanova_cat {
+    --colorppal: #eac610;
+	--colortrans: #F0D757;
+	--colorsecundario: #865294;
+	--colorsecundarioTexto: #865294;
+	--colorsecundariotrans: #DACBDE;
+    --TextoSobreFondoPpal: #000;
+    --TextoSobreFondoSec: #FFF;
+}
+.unittag_barcanova_cat .item-container:before {
+    background-image: url(images/cab_barpr_cat.png);
+}
+
+/*Coneixement del medi natural*/
+.unittag_barcanova_cmn {
+    --colorppal: #7eaf3d;
+	--colortrans: #B1CF8A;
+	--colorsecundario: #865294;
+	--colorsecundarioTexto: #865294;
+	--colorsecundariotrans: #DACBDE;
+    --TextoSobreFondoPpal: #FFF;
+    --TextoSobreFondoSec: #FFF;
+}
+.unittag_barcanova_cmn .item-container:before {
+    background-image: url(images/cab_barpr_bg.png);
+}
