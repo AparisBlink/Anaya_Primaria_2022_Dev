@@ -1929,6 +1929,16 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 
 
 /*CAJA POP-UP*/
+.info-popover,
+ .popover-template {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 10px 12px 3px #737373;
+    -moz-box-shadow: 4px 10px 12px 3px #737373;
+    box-shadow: 4px 10px 12px 3px #737373;
+}
+
 .info-popover .popover-title:before,
 .popover-template .popover-title:before {
 	display:none;
@@ -1982,21 +1992,20 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 
 #actividad .info-button {
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin: 0px;
-    -moz-box-shadow: 0px 4px 4px #00000038;
-    -webkit-box-shadow: 0px 4px 4px #00000038;
-    box-shadow: 0px 4px 4px #00000038;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
+    -moz-box-shadow: 0px 3px 5px #606060;
+    -webkit-box-shadow: 0px 3px 5px #606060;
+    box-shadow: 0px 3px 5px #606060;
+    border-radius: 50px;
     color: #1a171b;
-    line-height: 38px;
+    line-height: 0;
     text-align: center;
     cursor: pointer;
-    background-image: url(images/icono_popup.png);
+    background-image: url(images/icon_popup.png);
     background-position: center;
+    background-color: var(--colorppal);
 }
 
 /*Pop-up flotante*/
@@ -2045,8 +2054,12 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     color: #000;
 }
 .info-template .info-icon {
-    background-image: url(images/icono_popup.png);
+    background-image: url(images/icon_popup.png);
     background-position: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--colorppal);
+    background-size: contain;
 }
 
 
