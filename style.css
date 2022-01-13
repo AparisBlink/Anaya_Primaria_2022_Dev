@@ -126,7 +126,8 @@
     legibilidad*/
 	--colorsecundarioTexto: #aae500;
 	--colorsecundariotrans: #E8FFA8;
-    --GrisAnaya: #898989;
+    --TextoSobreFondoPpal: #FFF;
+    --TextoSobreFondoSec: #000;
 
     /*Tamaños textos*/
     --TextoGeneral: 20px;
@@ -781,7 +782,7 @@ body:not(.edit) .bck-file-label:before {
 }
 .bck-title-19 {
     font-size: var(--TextoGeneral);
-    color: #fff;
+    color: var(--TextoSobreFondoPpal);
     font-weight: bold;
     text-align: center;
     border-radius: 5px;
@@ -971,7 +972,7 @@ body .bck-box .bck-title p {
         background-color: var(--colorsecundario);
         font-weight: bold;
         font-size: var(--TextoGeneral);
-        color: #000;
+        color: var(--TextoSobreFondoSec);
         text-align: center;
         padding: 5px 25px;
         border-radius: 30px;
@@ -1156,7 +1157,7 @@ body .bck-box .bck-title p {
     padding: 10px 20px;
     border-radius: 20px;
     background-color: var(--colorppal);
-    color: #fff;
+    color: var(--TextoSobreFondoPpal);
     text-align: center;
 }
 /*CAJA 10*/
@@ -1196,6 +1197,7 @@ body .bck-box .bck-title p {
     background-color: var(--colorsecundario);
     border: 0;
     border-radius: 30px;
+    color: var(--TextoSobreFondoSec);
 }
 
 /*CAJA 15*/
@@ -1216,7 +1218,7 @@ body .bck-box .bck-title p {
   }
   
   .body_clase #actividad .bck-dropdown .bck-dropdown-titulo {
-    color: #000;
+    color: var(--TextoSobreFondoPpal);
     cursor: pointer;
     font-size: var(--TextoGeneral);
     font-weight: bold;
@@ -1243,7 +1245,7 @@ body .bck-box .bck-title p {
   }
   
   .body_clase #actividad .bck-dropdown .bck-dropdown-icon>.fa {
-    color: #000;
+    color: var(--TextoSobreFondoPpal);
     border: none;
     padding: 0;
     font-size: 18px;
@@ -1284,15 +1286,22 @@ body .bck-box .bck-title p {
 }
 
 /*Desplegable 2*/
+.body_clase #actividad .bck-dropdown.bck-dropdown-2 .bck-dropdown-icon>.fa {
+    color: #000;
+}
 .bck-dropdown-2 .fa-chevron-up:before {
     content: "\f077";
 }
 .bck-dropdown-2 .fa-chevron-down:before {
     content: "\f078";
 }
+.body_clase #actividad .bck-dropdown.bck-dropdown-2 .bck-dropdown-titulo {
+    color: #000;
+}
 .body_clase #actividad .bck-dropdown.bck-dropdown-2 .bck-dropdown-button {
     background-color: #C7C5C5;
 }
+
 
 
 /*Desplegable 3*/
@@ -1310,6 +1319,7 @@ body .bck-box .bck-title p {
     font-size: var(--TextoSecundario);
     font-weight: normal;
     padding-right: 10px;
+    color: #000;
 }
 .body_clase #actividad .bck-dropdown-3 .bck-dropdown-content {
     background-color: white;
@@ -1928,9 +1938,8 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 .popover-template .popover-title {
     position: relative;
     background: none;
-    color: #fff;
     font-size: var(--TextoGeneral);
-    color: #000;
+    color: var(--TextoSobreFondoPpal);
     border-bottom: 0;
     font-weight: bold;
     background-color: var(--colorppal);
@@ -1941,11 +1950,11 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
     display: block;
     background: #fff;
     padding: 10px 15px;
-    font-size: 16px;
     color: #000;
 }
-.close-popover {
-    color: #000;
+.info-popover .close-popover,
+.popover-template .close-popover {
+    color: var(--TextoSobreFondoPpal);
     top: 8px;
 }
 .info-template .info-title {
@@ -2027,7 +2036,7 @@ body:not(.edit) .bck-flipbox-face.back .bck-flipbox-content {
 }
 .info-template .info-title.shown {
     margin: 5px 10px;
-    color: #000;
+    color: var(--TextoSobreFondoPpal);
     font-weight: bold;
     font-size: 14px;
     padding: 0 0 6px 0;
@@ -2202,7 +2211,7 @@ body.view-mode .bck-subtitles {
     background: var(--colorppal);
     padding: 5px;
     text-align: center;
-    color: #fff;
+    color: var(--TextoSobreFondoPpal);
     border-radius: 0 0 5px 5px;
 }
 .video-js .vjs-progress-holder .vjs-play-progress {
@@ -2297,6 +2306,7 @@ hr {
     background-color: var(--colorppal);
     border-color: var(--colorppal);
     font-weight: bold;
+    color: var(--TextoSobreFondoPpal);
 }
 /*Rellenar espacios*/
 
@@ -2663,7 +2673,7 @@ body #actividad .workspace.chooseblanks .inline-answer a {
   .btn-danger:active,
    .btn-danger.active,
     .open .dropdown-toggle.btn-danger {
-        color: #000;
+        color: var(--TextoSobreFondoPpal);
         background-color: var(--colorppal);
 }
 
@@ -2673,7 +2683,7 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 .btn-primary:not([disabled]):hover,
 .open .dropdown-toggle.btn-primary {
     background-color: var(--colorppal);
-    color: #000;
+    color: var(--TextoSobreFondoPpal);
 }
 #actividad .content .review .attemps span {
     background-color: #E0E0E0;
@@ -2743,10 +2753,10 @@ table td,
 }
 
 .bck-table-2 {
-	border-color: var(--GrisAnaya);
+	border-color: #898989;
 }
 .bck-table-2 td {
-	border-color: var(--GrisAnaya);
+	border-color: #898989;
     font-size: var(--TextoGeneral);
 }
 
@@ -2771,13 +2781,13 @@ table td.bck-td-1 {
     font-size: var(--TextoGeneral);
 }
 table td.bck-td-2 {
-    color: #000;
+    color: var(--TextoSobreFondoPpal);
     background-color: var(--colorppal);
     text-align: center;
     font-size: var(--TextoGeneral);
 }
 table td.bck-td-3 {
-    color: #000;
+    color: var(--TextoSobreFondoSec);
     background-color: var(--colorsecundario);
     text-align: center;
     font-size: var(--TextoGeneral);
@@ -2827,6 +2837,8 @@ table td.bck-td-10 {
 	--colorsecundario: #D2FF51;
 	--colorsecundarioTexto: #aae500;
 	--colorsecundariotrans: #E8FFA8;
+    --TextoSobreFondoPpal: #FFF;
+    --TextoSobreFondoSec: #000;
 }
 .coursetag_barcanova #actividad .carousel-inner .item-container {
     padding-top: 20px;
@@ -2863,6 +2875,8 @@ table td.bck-td-10 {
 	--colorsecundario: #75b73f;
 	--colorsecundarioTexto: #75b73f;
 	--colorsecundariotrans: #C7E2B2;
+    --TextoSobreFondoPpal: #FFF;
+    --TextoSobreFondoSec: #FFF;
 }
 .coursetag_barcanova_cas .item-container:before {
     background-image: url(images/cab_barpr_leng.png);
@@ -2875,6 +2889,8 @@ table td.bck-td-10 {
 	--colorsecundario: #AACE36;
 	--colorsecundarioTexto: #AACE36;
 	--colorsecundariotrans: #D4E69A;
+    --TextoSobreFondoPpal: #FFF;
+    --TextoSobreFondoSec: #000;
 }
 .coursetag_barcanova_cms .item-container:before {
     background-image: url(images/cab_barpr_bg.png);
@@ -2887,6 +2903,8 @@ table td.bck-td-10 {
 	--colorsecundario: #AACE36;
 	--colorsecundarioTexto: #AACE36;
 	--colorsecundariotrans: #D4E69A;
+    --TextoSobreFondoPpal: #FFF;
+    --TextoSobreFondoSec: #000;
 }
 .coursetag_barcanova_mat .item-container:before {
     background-image: url(images/cab_barpr_mat.png);
@@ -2899,6 +2917,8 @@ table td.bck-td-10 {
 	--colorsecundario: #865294;
 	--colorsecundarioTexto: #865294;
 	--colorsecundariotrans: #DACBDE;
+    --TextoSobreFondoPpal: #000;
+    --TextoSobreFondoSec: #FFF;
 }
 .coursetag_barcanova_cat .item-container:before {
     background-image: url(images/cab_barpr_cat.png);
@@ -2911,6 +2931,8 @@ table td.bck-td-10 {
 	--colorsecundario: #865294;
 	--colorsecundarioTexto: #865294;
 	--colorsecundariotrans: #DACBDE;
+    --TextoSobreFondoPpal: #FFF;
+    --TextoSobreFondoSec: #FFF;
 }
 .coursetag_barcanova_cmn .item-container:before {
     background-image: url(images/cab_barpr_bg.png);
