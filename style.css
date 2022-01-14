@@ -2176,7 +2176,7 @@ body:not(.edit) .bck-tabs-box.vertical-tabs .div-contents {
 
 /*Lupa para imágenes*/
 body:not(.edit) #actividad a.zoom_flag_img {
-    background-color: var(--colortrans);
+    background-color: var(--colorppal);
     border-radius: 0px 5px 0px 5px;
     top: 0;
     right: 0;
