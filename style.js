@@ -182,7 +182,13 @@
 				{ name: 'Icono Pensamiento', element: 'span', attributes: { 'class': 'icon icon-pensamiento' } },
 				{ name: 'Icono Pl', element: 'span', attributes: { 'class': 'icon icon-pl' } },
 				{ name: 'Icono Tic', element: 'span', attributes: { 'class': 'icon icon-tic' } },
-				{ name: 'Icono Video', element: 'span', attributes: { 'class': 'icon icon-video' } }
+				{ name: 'Icono Video', element: 'span', attributes: { 'class': 'icon icon-video' } },
+
+				{ name: 'Ico.00 Audiovisuales', element: 'span', attributes: { 'class': 'icon icon-audiovisuales' } },
+				{ name: 'Ico.01 Interactivas', element: 'span', attributes: { 'class': 'icon icon-interactivas' } },
+				{ name: 'Ico.02 Pensamiento Visual', element: 'span', attributes: { 'class': 'icon icon-pensamientovisual' } },
+				{ name: 'Ico.03 Programas y Simulaciones', element: 'span', attributes: { 'class': 'icon icon-programasysimulaciones' } },
+				{ name: 'Ico.04 Info y Doc', element: 'span', attributes: { 'class': 'icon icon-infoydoc' } }
 			]
 		},
 		slidesTitle: {},
