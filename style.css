@@ -118,6 +118,7 @@
     font-style: normal;
 }
 
+
 :root {
 	--colorppal: #FF6DAF;
 	--colortrans: #FFCFE5;
@@ -338,6 +339,8 @@ strong {
     /*---*/
 /*---------*/
 
+
+
 /*-------------------------------------------------*/
 /*------ PARTE QUE SÍ AFECTA AL DISEÑO FINAL ------*/
 /*-------------------------------------------------*/
@@ -413,12 +416,6 @@ body {
  #actividad .carousel-inner .item-container.aux-bckg {
      max-width: 1900px;
 }
-    /*Margin Bottom al grid para respetar el margin-bottom de los párrafos*/
-    /*
-    .bck-row {
-        margin-bottom: 15px;
-    }
-    */
 
 
 /*Input Blanco*/
@@ -431,7 +428,6 @@ body {
 }
 
 
-
 /*tamaño enunciado listas*/
 #actividad textarea {
     font-size: var(--TextoGeneral);
@@ -442,31 +438,6 @@ body {
 body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 	color: var(--colorppal);
 	background-color: transparent;
-}
-
-/*--*/
-
-
-/* Titulo de la slide */
-body:not(.edit) #actividad .content .header {
-    display: none;
-}
-#actividad .content .header .title {
-    margin-bottom: 0px;
-}
-#actividad .content .header .title h3 {
-    margin-top: 0;
-    background: none;
-    color: #000;
-    padding: 0;
-    font-size: 42px;
-    border: 0;
-    font-weight: normal;
-    font-family: 'Chelsea Market';
-}
-#actividad .content .header .title h3::before{
-	content: '';
-	display: none;
 }
 
 .slide_main input:focus,
@@ -553,9 +524,37 @@ body #actividad a.bck-file-attach,
     width: 50px;
     height: 50px;
 }
+
+/*--*/
+
+
+/* Titulo de la slide
+Oculto por estilo */
+body:not(.edit) #actividad .content .header {
+    display: none;
+}
+#actividad .content .header .title {
+    margin-bottom: 0px;
+}
+#actividad .content .header .title h3 {
+    margin-top: 0;
+    background: none;
+    color: #000;
+    padding: 0;
+    font-size: 42px;
+    border: 0;
+    font-weight: normal;
+    font-family: 'Chelsea Market';
+}
+#actividad .content .header .title h3::before{
+	content: '';
+	display: none;
+}
+/*---*/
+
+
 /* TÍTULOS */
 
-/*-- Título 1 --*/
 .bck-title-1:before {
 	display: none;
 }
@@ -745,6 +744,7 @@ body #actividad a.bck-file-attach,
     border-radius: 50%;
     display: block; 
 }
+
 /*Estilo de párrafo*/
 .bck-p-1 {
     font-family: 'PT Serif', serif;
@@ -768,7 +768,7 @@ body #actividad a.bck-file-attach,
 .bck-p-5 {
     text-align: center;
 }
-
+/*---*/
 
 /*Énfasis */
 .bck-enfasis-1 {
@@ -880,7 +880,6 @@ body #actividad a.bck-file-attach,
     font-size: var(--TextoGeneral);
     padding: 0   
 }
-
 
 .bck-box .bck-content {
     padding: 0;
@@ -1066,10 +1065,7 @@ body .bck-box .bck-title p {
     padding: 10px 20px;
     border-radius: 20px;
 }
- .bck-box.bck-box-7>.bck-title {
-}
-.bck-box.bck-box-7>.bck-content {
-}
+
 
 /*CAJA 8*/
 .bck-box.bck-box-8 {
@@ -1136,10 +1132,7 @@ body .bck-box .bck-title p {
     padding: 10px 20px;
     border-radius: 20px;
 }
- .bck-box.bck-box-13>.bck-title {
-}
-.bck-box.bck-box-13>.bck-content {
-}
+
 
 /*CAJA 14*/
 .bck-box-14 {
@@ -2592,6 +2585,15 @@ body #actividad .workspace.chooseblanks .inline-answer a {
  .slide_content_type_29 .tools .active {
     background-color: var(--colorppal);
 }
+.slide_content_type_35 .draw,
+ .slide_content_type_29 .draw {
+    background-position: 13px -245px;
+}
+.slide_content_type_35 .erase,
+ .slide_content_type_29 .erase {
+    background-position: 13px -125px;
+}
+
 
 /*Análsis sintáctico*/
 #actividad .workspace.syntax .sintaxis_adder .filled {
@@ -2652,6 +2654,12 @@ body #actividad .workspace.chooseblanks .inline-answer a {
 .deliverablefile .divtable {
     margin-top: 20px;
 }
+
+/*Respuestas cortas*/
+.hint.solucion.decoding {
+    COLOR: #00BDFF;
+}
+
 
 /*botonera general*/
 #actividad .class_slide .review {
