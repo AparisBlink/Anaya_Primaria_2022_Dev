@@ -35,6 +35,10 @@
 				{ name: ' T.19', element: 'h3', attributes: { 'class': 'bck-title-19'} },
 				{ name: ' T.20', element: 'h3', attributes: { 'class': 'bck-title-20'} },
 				{ name: ' T.21', element: 'h3', attributes: { 'class': 'bck-title-21'} },
+				{ name: ' T.22', element: 'h3', attributes: { 'class': 'bck-title-22'} },
+				{ name: ' T.23', element: 'h3', attributes: { 'class': 'bck-title-23'} },
+				{ name: ' T.24', element: 'h3', attributes: { 'class': 'bck-title-24'} },
+				{ name: ' T.25', element: 'h3', attributes: { 'class': 'bck-title-25'} },
 
 				{ name: 'Pa.01 Pie Cita', element: 'p', attributes: { 'class': 'bck-p-1'} },
 				{ name: 'Pa.02 Cita 1', element: 'p', attributes: { 'class': 'bck-p-2'} },
@@ -45,6 +49,7 @@
 				{ name: 'Pa.07', element: 'p', attributes: { 'class': 'bck-p-7'} },
 				{ name: 'Pa.08', element: 'p', attributes: { 'class': 'bck-p-8'} },
 				{ name: 'Pa.09', element: 'p', attributes: { 'class': 'bck-p-9'} },
+				{ name: 'Pa.10', element: 'p', attributes: { 'class': 'bck-p-10'} },
 				
 
 				{ name: 'Énf.01 Color 1', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
@@ -69,6 +74,14 @@
 				{ name: 'Énf.20 Color Marrón', element: 'span', attributes: { 'class': 'bck-enfasis-20'} },
 				{ name: 'Énf.21 Color Rojo', element: 'span', attributes: { 'class': 'bck-enfasis-21'} },
 				{ name: 'Énf.22 Color Violeta', element: 'span', attributes: { 'class': 'bck-enfasis-22'} },
+				{ name: 'Énf.23', element: 'span', attributes: { 'class': 'bck-enfasis-23'} },
+				{ name: 'Énf.24', element: 'span', attributes: { 'class': 'bck-enfasis-24'} },
+				{ name: 'Énf.25', element: 'span', attributes: { 'class': 'bck-enfasis-25'} },
+				{ name: 'Énf.26', element: 'span', attributes: { 'class': 'bck-enfasis-26'} },
+				{ name: 'Énf.27', element: 'span', attributes: { 'class': 'bck-enfasis-27'} },
+				{ name: 'Énf.28', element: 'span', attributes: { 'class': 'bck-enfasis-28'} },
+				{ name: 'Énf.29', element: 'span', attributes: { 'class': 'bck-enfasis-29'} },
+				{ name: 'Énf.30', element: 'span', attributes: { 'class': 'bck-enfasis-30'} },
 
 				{ name: 'L.01.123 Punto', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
 				{ name: 'L.02.abc Paréntesis', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
