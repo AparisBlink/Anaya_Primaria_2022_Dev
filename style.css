@@ -2223,6 +2223,9 @@ body.view-mode .bck-subtitles {
 .video.multimedia-container {
     height: 100%;
 }
+.bck-video-player {
+    height: 100%;
+}
 
 
 
