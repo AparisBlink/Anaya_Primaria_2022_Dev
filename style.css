@@ -2994,7 +2994,7 @@ table td.bck-td-10 {
 
 /*SECCIONES*/
 /*fondotransparente*/
-body:not(.edit) #actividad .carousel-inner .fondotransparente .item-container.aux-bckg.is-top .class_slide {
+body:not(.edit) #actividad .carousel-inner .fondotransparente .item-container .class_slide {
     background: none;
 }
 
