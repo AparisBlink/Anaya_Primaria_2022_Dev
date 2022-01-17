@@ -407,7 +407,7 @@ body {
     border-right: 2px solid #EAEAEA;
     margin: 0 auto 0;
     width: 95%;
-    max-width: 1400px;
+    max-width: 1200px;
 }
 #actividad .carousel-inner .item-container.aux-fullscreen,
  #actividad .carousel-inner .item-container.aux-bckg {
@@ -2479,6 +2479,7 @@ body .slide_main input.solucion {
     box-shadow: 0 4px 7px var(--colortrans);
     border: 1px solid var(--colortrans);
     padding: 4px;
+    border-radius: 5px;
 }
 #actividad .markword-active {
     border-radius: 5px !important;
