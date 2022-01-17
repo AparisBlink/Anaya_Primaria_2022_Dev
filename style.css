@@ -2237,7 +2237,7 @@ hr {
 
 /*SLIDES CONTENIDO MULTIMEDIA*/
 #actividad .slide_content_type_7.class_slide {
-    padding: 0;
+    padding: 60px 0 0;
 }
 
 /*----*/
@@ -3008,6 +3008,11 @@ table td.bck-td-10 {
 /*fondotransparente*/
 body:not(.edit) #actividad .carousel-inner .fondotransparente .item-container .class_slide {
     background: none;
+}
+/*PantallaCompleta*/
+#actividad .carousel-inner .PantallaCompleta .item-container {
+    max-width: 1900px;
+    padding: 0;
 }
 
 
