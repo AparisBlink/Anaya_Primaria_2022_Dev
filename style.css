@@ -3014,6 +3014,9 @@ body:not(.edit) #actividad .carousel-inner .fondotransparente .item-container .c
     max-width: 1900px;
     padding: 0;
 }
+#actividad .PantallaCompleta .slide_content_type_7.class_slide {
+    padding: 0;
+}
 
 
 
