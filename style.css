@@ -2259,6 +2259,10 @@ hr {
     box-shadow: none;
     background-color: white;
 }
+body .slide_main input.solucion {
+    background: #B6ECFF; 
+}
+
     /*Ajuste de los inputs dentro de GRIDS para alinear las columnas*/
     .slide_main .js--row input:last-of-type {
         margin: 0;
