@@ -3296,3 +3296,11 @@ body:not(.edit) #actividad .carousel-inner .fondotransparente .item-container .c
         right: 40px;
 }
 }
+
+.bck-activity-link {
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 3px 7px #c5c5c5;
+    -moz-box-shadow: 0px 3px 7px #c5c5c5;
+    box-shadow: 0px 3px 7px #c5c5c5;
+}
